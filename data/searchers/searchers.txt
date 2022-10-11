@@ -11,39 +11,38 @@
 # You should have received a copy of the GNU General Public License along with
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
-ship "Searcher Pestle"
-	sprite "ship/searcher pestle"
-	attributes
-		category "Drone"
-		"cost" 1000000
-		"shields" 100
-		"hull" 1400
-		"mass" 28
-		"drag" .7
-		"heat dissipation" 0.91
-		"cargo space" 10
-		"outfit space" 80
-		"weapon capacity" 18
-		"engine capacity" 38
-		"automaton" 1
-		weapon
-			"blast radius" 8
-			"shield damage" 80
-			"hull damage" 40
-			"hit force" 120
-	outfits
-		"Energy Blaster"
-		"Anti-Missile Turret"
+phrase "searchers"
+	word
+		"Search"
+		"Pursuit"
+		"Enjoyment"
+		"Champion"
+		"King"
+		"Knight"
+		"Beacon"
+		"Voyage"
+		"Lord"
+	word
+		" of "
+		" for "
+	word
+		"Knowledge"
+		"Land"
+		"Peace"
+		"Justice"
+		"Victory"
+		"Lore"
+		"Tranquility"
+		"Happiness"
+		"Joy"
+		"Grace"
+		"Kindness"
+		"Beauty"
+		"Order"
+		"Life"
+		"Aliens"
+		"Scientists"
 
-		"D14-RN Shield Generator"
-
-		"nGVF-AA Fuel Cell"
-		"Supercapacitor"
-		
-		"X1700 Ion Thruster"
-		"X1200 Ion Steering"
-
-	gun 0 -32 "Energy Blaster"
-	turret 0 14 "Anti-Missile Turret"
-	engine -6.5 34.5
-	engine 6.5 34.5
+phrase "searchers"
+	word
+		""
