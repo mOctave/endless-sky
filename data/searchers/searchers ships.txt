@@ -47,3 +47,56 @@ ship "Searcher Pestle"
 	turret 0 14 "Anti-Missile Turret"
 	engine -6.5 34.5
 	engine 6.5 34.5
+
+ship "Searcher Temple"
+	sprite "ship/searcher temple"
+	attributes
+		category "Light Freighter"
+		"cost" 3200000
+		"shields" 4800
+		"hull" 4000
+		"required crew" 32
+		"bunks" 41
+		"mass" 320
+		"drag" 9.5
+		"heat dissipation" 0.75
+		"fuel capacity" 400
+		"cargo space" 240
+		"outfit space" 400
+		"weapon capacity" 80
+		"engine capacity" 160
+		weapon
+			"blast radius" 100
+			"shield damage" 100
+			"hull damage" 100
+			"hit force" 100
+	outfits
+		"Energy Blaster" 2
+		"Meteor Missile Launcher" 2
+		"Meteor Missile" 60
+		
+		"Heavy Anti-Missile Turret"
+
+		"D67-TM Shield Generator"
+
+		"nGVF-CC Fuel Cell"
+		"Supercapacitor"
+		
+		"X3700 Ion Thruster"
+		"X3200 Ion Steering"
+
+		"Hyperdrive"
+
+	gun -18 -114 "Energy Blaster"
+	gun 18 -114 "Energy Blaster"
+	gun -18 -113.5 "Energy Blaster"
+	gun 18 -113.5 "Energy Blaster"
+	turret 0 26 "Heavy Anti-Missile Turret"
+	engine -22 118.5
+	engine 22 118.5
+	bay "Drone" -31 -6
+		under
+		left
+	bay "Drone" 31 -6
+		under
+		right
