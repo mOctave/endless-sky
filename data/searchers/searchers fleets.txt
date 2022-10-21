@@ -11,4 +11,25 @@
 # You should have received a copy of the GNU General Public License along with
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
-fleet ""
+fleet "Searcher Temple"
+	names "searchers"
+	fighters "searchers fighters"
+	personality
+		heroic
+		vindictive
+		mining
+		harvests
+		confusion 40
+	variant
+		"Searcher Temple"
+		"Searcher Pestle"
+	variant
+		"Searcher Temple"
+		"Searcher Pestle" 2
+	variant
+		"Searcher Temple"
+		"Searcher Pestle"
+		"Searcher Mortar"
+	variant
+		"Searcher Temple"
+		"Searcher Mortar" 2

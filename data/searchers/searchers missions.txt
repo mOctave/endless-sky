@@ -1,0 +1,165 @@
+# Copyright (c) 2022 by mOctave
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+mission "First Contact: Searchers (Quarg Version)"
+	landing
+	source
+		attributes "searchers"
+		has "First Contact: Quarg: offered"
+		not "First Contact: Searchers (No Quarg Version): offered"
+	on offer
+		log "Factions" "Searchers" `The Searchers are a peaceful species, who posses neither serious weapons nor the capability for hatred. They have acquired advanced technology in their neverending search for knowledge, and seek to bring the entire universe into order. Although they are isolated from other alien species, they have long known that they are not alone in the cosmos: they found a wrecked Quarg wardragon in deep space outside of their home system around a thousand years ago, and managed to strip the engines from it for further study.`
+		log "Factions" "Searchers" `The primary Searcher measurement of time, the punctum, is approximately 1.657e+43 planck time (or around 0.9 seconds). The day is 150000 puncta long, and is divided into 15 hours which are known as tempa. The measurement of length (iter), is defined as the distance light travels in a punctum, or around 270000 kilometers, which is further divided into 262144 sections that are about a kilometer long known as tracta. The shortest commonly used measurement of distance, the gradus, is defined as a 4096th of a tractum.`
+		log "Factions" "Searchers" `The average height for a standing Searcher is about 2 gradi tall, although well-fed Searchers are known to be as tall as 2.5 gradi, or, in exceptional cases, 3 gradi. Searchers are quadrupedal, although they can stand up on their hind legs, and they have four fingers on each of their four hands. The Searchers no longer have any natural predators, although they do have to struggle with invasive detritivores on their home planet.`
+		conversation
+			`	Immediately upon landing, you are met by a furry creature that looks somewhat like a sloth. It bows, and immediately starts speaking to you: "Captain <first>-<last> of the Humans, it is my great pleasure to welcome thee to <origin>. We naturally have many questions for thee concerning your technology, as well as the culture of thy species. We (that is to say, the Searchers) have studied thee carefully since thou entered our space, and we have prepared a brief information package for thee as well as a longer parcel to take back to thy government."`
+			choice
+				`	"Who are you?"`
+					goto who
+				`	"How do you know my language?"`
+					goto language
+				`	"How do you know my name?"`
+					goto name
+			label who
+			`	"Who are you?" you ask, slightly confused.`
+			`	"How impolite of me!" the sloth-like creature responds. "I am Erun Zi-Er-Ta-Lik of the Erun Summus Collis, He Who Is Ambassador to Foreign Species, Watcher of the Stars, and Keeper of all Knowledge of the Searchers. I represent the Searchers, my species, in diplomacy and trade deals with other species, such as thine."`
+			`	"Do you trade with many other species?" you ask.`
+			`	Zi-Er-Ta-Lik seems somewhat embarrassed. "Perhaps I was unclear in what I said to thee. We, the Searchers, have not met any other sentient beings in our travels. Thou is the first to come to us from beyond our realm, and we are naturally quite interested in thee, Captain <first>-<last>."`
+				`	"How do you know my language?"`
+					goto language
+				`	"How do you know my name?"`
+					goto name
+			label language
+			`	How do you know my language?" you ask the sloth.`
+			`	"Ah, that is indeed a long story, and one I, Erun Zi-Er-Ta-Lik of the Erun Summus Collis, am glad to tell," the Searcher responds. "Thou sees, we once lived in one system, and one system only. Our ancestors used to travel in their ships all across the asteroid belts looking for more material with which to build more ships and more machines for those below. It is in those asteroid belts that they found the rare mineral deposits that allow travel through the wormholes that lead to our home system. After that, many Searchers left the home system in search of a life of adventure elsewhere. Colonies were founded, and our knowledge of the universe began to expand greatly."`
+			`	"One day, Erun Or-Kel-Vor-Tin of the Erun Summus Collis (my distant ancestor, if you believe the tales), discovered in the out reaches of the home system a strange and marvellous ship, unlike any of ours. He deduced at once that it was used by a species from a far off world, one capable of travelling between stars without the use of wormholes. From that ship, he took what he could, and, leaving the fire-marked hull to drift away, returned to the home world with some machines that our scientists eventually discovered were their marvellous engines."`
+			`	"Since that discovery, a thousand years ago, many wise Searchers have laboured to prepare for the eventual meeting of the people beyond our realms. We have developed new methods of faster-than-light travel, and perfected our translation devices. This is how I speak thy language." As Zi-Er-Ta-Lik finishes speaking, he presses a button on a device hung around his neck that you mistook for a small pendant. Suddenly, his voice is replaced by a very quiet, very high-pitched squeal. He quickly presses the button again, which appears to turn the translator back on. "I can only speak with thee by the use of this translator, of course," he tells you, "but while it is on I can both understand and speak thy tongue."`
+			choice
+				`	"How do you know my name?"`
+					goto name
+				`	"Your translator must have a bug... nobody uses words like 'thou,' 'thee,' 'thy,' and 'thine' anymore."`
+					goto bug
+				`	"What did the ship look like?"`
+					goto ship
+			label name
+			`	When you ask how the Searcher knows your name, he seems, perhaps, a little embarrassed. "We've carefully studied thy ship since it entered our space, Captain <first>-<last>. All the Watchers of the Stars, with myself, Zi-Er-Ta-Lik, as the head, have been able to focus on nothing else these past tempa. Please forgive us for this intrusion on thy privacy."`
+			`	You assure him that you are not insulted by the actions of the Watchers of the Stars, and he seems quite relieved. "Thank you for thine grace in this matter. However, I must further intrude upon thee by requesting that thou does something for me."`	
+			choice
+				`	"What do you want from me?"`
+					goto want
+			label ship
+			`	"What did the ship look like?" you ask, wondering if it is a model you are familiar with.`
+			`	In response, Zi-Er-Ta-Lik shows you a picture that is instantly recognizeable as a Quarg Wardragon. There is a massive gash in one of the wings, and the cockpit is entirely missing along with a good portion of the front half, but the general shape remains unmistakeable. You can't help but wonder how such a powerful ship managed to just vanish, and why the Quarg didn't try to recover it.`
+			`	"Do you recognize this design?" Zi-Er-Ta-Lik asks, as if reading your surprise.`
+			choice
+				`	"Yes, I recognize that model of ship."`
+					goto recognize
+				`	"Yes, that's a Quarg Wardragon."`
+					goto wardragon
+				`	"No, I've never seen a ship like that before in my life."`
+			label recognize
+			`	"You recognize the model? Is it one of your people's ships?" he asks.`
+			`	"No," you respond, "it belongs to a group of aliens who live in the south of my people's space."`
+				goto donedragon
+			label wardragon
+			`	"The Quarg?" he asks, "Are they one of your manufacturers of ships?"`
+			`	"No," you respond, "the Quarg are a race of technologically-advanced aliens. The Wardragon is one of their warships."`
+			label donedragon
+			`	Zi-Er-Ta-Lik seems fascinated by this, but doesn't pursue the matter further. "I'm afraid I must ask you to do something for me," he says quietly.`	
+			choice
+				`	"What do you want me to do?"`
+					goto want
+			label bug
+			`	You tell Zi-Er-Ta-Lik that you think his translator has a bug.`
+			`	"None of our translation software is perfect," Zi-Er-Ta-Lik responds, "although it certainly may seem that way at first. It is quite likely that occasional errors will be made, or the use of antiquated terms. That's why working through an intermediary often works better. Which is where we need you."`
+			label want
+				`	"It would greatly please us if you would make contact with your government (this "Republic" of yours) to further diplomatic relations. Would you be capable of doing such a thing."`
+				choice
+					`	"Sure! No problem!"`
+					accept
+					`	"I'm afraid I can't do that."`
+			`	"I'm afraid I can't do that," you tell Zi-Er-Ta-Lik, who seems crestfallen. He says nothing more, but turns and walks away.`
+
+
+mission "First Contact: Searchers (No Quarg Version)"
+	landing
+	source
+		attributes "searchers"
+		not "First Contact: Quarg: offered"
+		not "First Contact: Searchers (Quarg Version): offered"
+	on offer
+		log "Factions" "Searchers" `The Searchers are a peaceful species, who posses neither serious weapons nor the capability for hatred. They have acquired advanced technology in their neverending search for knowledge, and seek to bring the entire universe into order. Although they are isolated from other alien species, they have long known that they are not alone in the cosmos: they found an alien ship in deep space outside of their home system around a thousand years ago, and managed to strip the engines from it for further study.`
+		log "Factions" "Searchers" `The primary Searcher measurement of time, the punctum, is approximately 1.657e+43 planck time (or around 0.9 seconds). The day is 150000 puncta long, and is divided into 15 hours which are known as tempa. The measurement of length (iter), is defined as the distance light travels in a punctum, or around 270000 kilometers, which is further divided into 262144 sections that are about a kilometer long known as tracta. The shortest commonly used measurement of distance, the gradus, is defined as a 4096th of a tractum.`
+		log "Factions" "Searchers" `The average height for a standing Searcher is about 2 gradi tall, although well-fed Searchers are known to be as tall as 2.5 gradi, or, in exceptional cases, 3 gradi. Searchers are quadrupedal, although they can stand up on their hind legs, and they have four fingers on each of their four hands. The Searchers no longer have any natural predators, although they do have to struggle with invasive detritivores on their home planet.`
+
+		conversation
+			`	Immediately upon landing, you are met by a furry creature that looks somewhat like a sloth. It bows, and immediately starts speaking to you: "Captain <first>-<last> of the Humans, it is my great pleasure to welcome thee to <origin>. We naturally have many questions for thee concerning your technology, as well as the culture of thy species. We (that is to say, the Searchers) have studied thee carefully since thou entered our space, and we have prepared a brief information package for thee as well as a longer parcel to take back to thy government."`
+			choice
+				`	"Who are you?"`
+					goto who
+				`	"How do you know my language?"`
+					goto language
+				`	"How do you know my name?"`
+					goto name
+			label who
+			`	"Who are you?" you ask, slightly confused.`
+			`	"How impolite of me!" the sloth-like creature responds. "I am Erun Zi-Er-Ta-Lik of the Erun Summus Collis, He Who Is Ambassador to Foreign Species, Watcher of the Stars, and Keeper of all Knowledge of the Searchers. I represent the Searchers, my species, in diplomacy and trade deals with other species, such as thine."`
+			`	"Do you trade with many other species?" you ask.`
+			`	Zi-Er-Ta-Lik seems somewhat embarrassed. "Perhaps I was unclear in what I said to thee. We, the Searchers, have not met any other sentient beings in our travels. Thou is the first to come to us from beyond our realm, and we are naturally quite interested in thee, Captain <first>-<last>."`
+				`	"How do you know my language?"`
+					goto language
+				`	"How do you know my name?"`
+					goto name
+			label language
+			`	How do you know my language?" you ask the sloth.`
+			`	"Ah, that is indeed a long story, and one I, Erun Zi-Er-Ta-Lik of the Erun Summus Collis, am glad to tell," the Searcher responds. "Thou sees, we once lived in one system, and one system only. Our ancestors used to travel in their ships all across the asteroid belts looking for more material with which to build more ships and more machines for those below. It is in those asteroid belts that they found the rare mineral deposits that allow travel through the wormholes that lead to our home system. After that, many Searchers left the home system in search of a life of adventure elsewhere. Colonies were founded, and our knowledge of the universe began to expand greatly."`
+			`	"One day, Erun Or-Kel-Vor-Tin of the Erun Summus Collis (my distant ancestor, if you believe the tales), discovered in the out reaches of the home system a strange and marvellous ship, unlike any of ours. He deduced at once that it was used by a species from a far off world, one capable of travelling between stars without the use of wormholes. From that ship, he took what he could, and, leaving the fire-marked hull to drift away, returned to the home world with some machines that our scientists eventually discovered were their marvellous engines."`
+			`	"Since that discovery, a thousand years ago, many wise Searchers have laboured to prepare for the eventual meeting of the people beyond our realms. We have developed new methods of faster-than-light travel, and perfected our translation devices. This is how I speak thy language." As Zi-Er-Ta-Lik finishes speaking, he presses a button on a device hung around his neck that you mistook for a small pendant. Suddenly, his voice is replaced by a very quiet, very high-pitched squeal. He quickly presses the button again, which appears to turn the translator back on. "I can only speak with thee by the use of this translator, of course," he tells you, "but while it is on I can both understand and speak thy tongue."`
+			choice
+				`	"How do you know my name?"`
+					goto name
+				`	"Your translator must have a bug... nobody uses words like 'thou,' 'thee,' 'thy,' and 'thine' anymore."`
+					goto bug
+				`	"What did the ship look like?"`
+					goto ship
+			label name
+			`	When you ask how the Searcher knows your name, he seems, perhaps, a little embarrassed. "We've carefully studied thy ship since it entered our space, Captain <first>-<last>. All the Watchers of the Stars, with myself, Zi-Er-Ta-Lik, as the head, have been able to focus on nothing else these past tempa. Please forgive us for this intrusion on thy privacy."`
+			`	You assure him that you are not insulted by the actions of the Watchers of the Stars, and he seems quite relieved. "Thank you for thine grace in this matter. However, I must further intrude upon thee by requesting that thou does something for me."`	
+			choice
+				`	"What do you want from me?"`
+					goto want
+			label ship
+			`	"What did the ship look like?" you ask, wondering if it is a model you are familiar with.`
+			`	In response, Zi-Er-Ta-Lik shows you a picture of a very badly damaged ship that looks somewhat like the kind of ships you've heard the Quarg use.`
+			`	"Do you recognize this design?" Zi-Er-Ta-Lik askse.`
+			choice
+				`	"I've seen ships like that, but I've never been near one."`
+					goto recognize
+				`	"No, I've never seen a ship like that before in my life."`
+			label recognize
+			`	"You recognize it, then? Is it one of your people's ships?" he asks.`
+			`	"No," you respond, "it belongs to a group of aliens who live in the south of my people's space."`
+			`	Zi-Er-Ta-Lik seems fascinated by this, but doesn't pursue the matter further. "I'm afraid I must ask you to do something for me," he says quietly.`	
+			choice
+				`	"What do you want me to do?"`
+					goto want
+			label bug
+			`	You tell Zi-Er-Ta-Lik that you think his translator has a bug.`
+			`	"None of our translation software is perfect," Zi-Er-Ta-Lik responds, "although it certainly may seem that way at first. It is quite likely that occasional errors will be made, or the use of antiquated terms. That's why working through an intermediary often works better. Which is where we need you."`
+			label want
+				`	"It would greatly please us if you would make contact with your government (this "Republic" of yours) to further diplomatic relations. Would you be capable of doing such a thing."`
+				choice
+					`	"Sure! No problem!"`
+					accept
+					`	"I'm afraid I can't do that."`
+			`	"I'm afraid I can't do that," you tell Zi-Er-Ta-Lik, who seems crestfallen. He says nothing more, but turns and walks away.`

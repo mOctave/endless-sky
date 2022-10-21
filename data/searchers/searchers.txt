@@ -12,6 +12,12 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 phrase "searchers"
+	phrase
+		"searchers subphrase 1"
+		"searchers subphrase 2" 2
+		"searchers subphrase 3" 2
+
+phrase "searchers subphrase 1"
 	word
 		"Search"
 		"Pursuit"
@@ -43,6 +49,90 @@ phrase "searchers"
 		"Aliens"
 		"Scientists"
 
-phrase "searchers"
+phrase "searchers subphrase 2"
+	phrase 
+		"searcher virtues"
 	word
-		""
+		" is "
+	phrase
+		"searcher virtues"
+		"adjectives"
+
+phrase "searcher virtues"
+	word
+		"Happiness"
+		"Truth"
+		"Knowledge"
+		"Power"
+		"Control"
+		"Might"
+		"Order"
+		"Joy"
+		"Grace"
+		"Kindness"
+		"Beauty"
+		"Respect"
+		"Money"
+		"Flight"
+		"Tranquility"
+		"Verity"
+		"Exploration"
+		"Discovery"
+		"Bravery"
+		"Mastery"
+		"Technique"
+		"Polish"
+		"Capability"
+		"Victory"
+		"Virtue"
+		"Righteousness"
+		"Majesty"
+
+phrase "searchers subphrase 3"
+	phrase
+		"adjective"
+	word
+		" "
+	phrase
+		"searcher virtues"
+
+phrase "searchers fighters"
+	word
+		"0x"
+	phrase
+		"hexidecimal"
+	phrase
+		"hexidecimal"
+	phrase
+		"hexidecimal"
+	phrase
+		"hexidecimal"
+	phrase
+		"hexidecimal"
+	phrase
+		"hexidecimal"
+	phrase
+		"hexidecimal"
+	phrase
+		"hexidecimal"
+	phrase
+		"hexidecimal"
+
+phrase "hexidecimal"
+	word
+		"0"
+		"1"
+		"2"
+		"3"
+		"4"
+		"5"
+		"6"
+		"7"
+		"8"
+		"9"
+		"A"
+		"B"
+		"C"
+		"D"
+		"E"
+		"F"

@@ -17,4 +17,3 @@ outfit "Verum Impactor"
 	"outfit space" -7
 	"weapon capacity" -7
 	"gun ports" -1
-	
