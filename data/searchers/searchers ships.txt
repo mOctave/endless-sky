@@ -49,7 +49,8 @@ ship "Searcher Pestle"
 	engine 6.5 34.5
 
 ship "Searcher Mortar"
-	sprite "ship/searcher pestle"
+	sprite "ship/searcher mortar"
+	thumbnail "thumbnail/searcher mortar"
 	attributes
 		category "Drone"
 		"cost" 1000000
