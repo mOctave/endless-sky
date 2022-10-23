@@ -89,6 +89,7 @@ mission "First Contact: Searchers (Quarg Version)"
 					accept
 					`	"I'm afraid I can't do that."`
 			`	"I'm afraid I can't do that," you tell Zi-Er-Ta-Lik, who seems crestfallen. He says nothing more, but turns and walks away.`
+				decline
 
 
 mission "First Contact: Searchers (No Quarg Version)"
@@ -163,3 +164,4 @@ mission "First Contact: Searchers (No Quarg Version)"
 					accept
 					`	"I'm afraid I can't do that."`
 			`	"I'm afraid I can't do that," you tell Zi-Er-Ta-Lik, who seems crestfallen. He says nothing more, but turns and walks away.`
+				decline

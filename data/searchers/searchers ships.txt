@@ -48,6 +48,44 @@ ship "Searcher Pestle"
 	engine -6.5 34.5
 	engine 6.5 34.5
 
+ship "Searcher Mortar"
+	sprite "ship/searcher pestle"
+	attributes
+		category "Drone"
+		"cost" 1000000
+		"shields" 100
+		"hull" 1400
+		"mass" 28
+		"drag" .7
+		"heat dissipation" 0.91
+		"cargo space" 10
+		"outfit space" 80
+		"weapon capacity" 18
+		"engine capacity" 38
+		"automaton" 1
+		weapon
+			"blast radius" 8
+			"shield damage" 80
+			"hull damage" 40
+			"hit force" 120
+	outfits
+		"Meteor Missile Launcher"
+		"Meteor Missile" 60
+		"Anti-Missile Turret"
+
+		"D14-RN Shield Generator"
+
+		"nGVF-AA Fuel Cell"
+		"Supercapacitor"
+		
+		"X1700 Ion Thruster"
+		"X1200 Ion Steering"
+
+	gun -5.5 -26 "Meteor Missile Launcher"
+	gun 5.5 -26 "Meteor Missile Launcher"
+	engine -6.5 34.5
+	engine 6.5 34.5
+
 ship "Searcher Temple"
 	sprite "ship/searcher temple"
 	attributes
@@ -74,7 +112,7 @@ ship "Searcher Temple"
 		"Energy Blaster" 2
 		"Meteor Missile Launcher" 2
 		"Meteor Missile" 60
-		
+
 		"Heavy Anti-Missile Turret"
 
 		"D67-TM Shield Generator"
