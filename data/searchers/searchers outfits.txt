@@ -11,6 +11,16 @@
 # You should have received a copy of the GNU General Public License along with
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
+outfit "Axiom Battery"
+	plural "Axiom Batteries"
+	category "Power"
+	"cost" 29000
+	thumbnail "outfit/axiom battery"
+	"mass" 10
+	"outfit space" -10
+	"energy capacity" 6500
+	description "The Axiom Battery is the smallest energy storage unit produced by the Searchers. It is very efficient, but also somewhat expensive."
+
 outfit "Verum Impactor"
 	"cost" 24000
 	"mass" 7

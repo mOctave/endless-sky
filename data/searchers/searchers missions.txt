@@ -12,11 +12,15 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 mission "First Contact: Searchers (Quarg Version)"
+	name "Tell Parliment About the Searchers"
+	description "Fly to <destination> and request a meeting with the Republic Parliment regarding the Searchers."
 	landing
 	source
 		attributes "searchers"
+	to offer
 		has "First Contact: Quarg: offered"
 		not "First Contact: Searchers (No Quarg Version): offered"
+	destination "Earth"
 	on offer
 		log "Factions" "Searchers" `The Searchers are a peaceful species, who posses neither serious weapons nor the capability for hatred. They have acquired advanced technology in their neverending search for knowledge, and seek to bring the entire universe into order. Although they are isolated from other alien species, they have long known that they are not alone in the cosmos: they found a wrecked Quarg wardragon in deep space outside of their home system around a thousand years ago, and managed to strip the engines from it for further study.`
 		log "Factions" "Searchers" `The primary Searcher measurement of time, the punctum, is approximately 1.657e+43 planck time (or around 0.9 seconds). The day is 150000 puncta long, and is divided into 15 hours which are known as tempa. The measurement of length (iter), is defined as the distance light travels in a punctum, or around 270000 kilometers, which is further divided into 262144 sections that are about a kilometer long known as tracta. The shortest commonly used measurement of distance, the gradus, is defined as a 4096th of a tractum.`
@@ -86,18 +90,25 @@ mission "First Contact: Searchers (Quarg Version)"
 				`	"It would greatly please us if you would make contact with your government (this "Republic" of yours) to further diplomatic relations. Would you be capable of doing such a thing."`
 				choice
 					`	"Sure! No problem!"`
-					accept
+					goto sure
 					`	"I'm afraid I can't do that."`
 			`	"I'm afraid I can't do that," you tell Zi-Er-Ta-Lik, who seems crestfallen. He says nothing more, but turns and walks away.`
 				decline
+			label sure
+				`	"Sure! No problem!"`
+				`	Zi Er-Ta-Lik hands you a device not unlike the one he is wearing. "This will enable thee to speak with our people. Use it well, and return to us with a message from your government, the Republic."`
 
 
 mission "First Contact: Searchers (No Quarg Version)"
+	name "Tell Parliment About the Searchers"
+	description "Fly to <destination> and request a meeting with the Republic Parliment regarding the Searchers."
 	landing
 	source
 		attributes "searchers"
-		not "First Contact: Quarg: offered"
-		not "First Contact: Searchers (Quarg Version): offered"
+	to offer
+		has "First Contact: Quarg: offered"
+		not "First Contact: Searchers (No Quarg Version): offered"
+	destination "Earth"
 	on offer
 		log "Factions" "Searchers" `The Searchers are a peaceful species, who posses neither serious weapons nor the capability for hatred. They have acquired advanced technology in their neverending search for knowledge, and seek to bring the entire universe into order. Although they are isolated from other alien species, they have long known that they are not alone in the cosmos: they found an alien ship in deep space outside of their home system around a thousand years ago, and managed to strip the engines from it for further study.`
 		log "Factions" "Searchers" `The primary Searcher measurement of time, the punctum, is approximately 1.657e+43 planck time (or around 0.9 seconds). The day is 150000 puncta long, and is divided into 15 hours which are known as tempa. The measurement of length (iter), is defined as the distance light travels in a punctum, or around 270000 kilometers, which is further divided into 262144 sections that are about a kilometer long known as tracta. The shortest commonly used measurement of distance, the gradus, is defined as a 4096th of a tractum.`
@@ -161,7 +172,10 @@ mission "First Contact: Searchers (No Quarg Version)"
 				`	"It would greatly please us if you would make contact with your government (this "Republic" of yours) to further diplomatic relations. Would you be capable of doing such a thing."`
 				choice
 					`	"Sure! No problem!"`
-					accept
+					goto sure
 					`	"I'm afraid I can't do that."`
 			`	"I'm afraid I can't do that," you tell Zi-Er-Ta-Lik, who seems crestfallen. He says nothing more, but turns and walks away.`
 				decline
+			label sure
+				`	"Sure! No problem!"`
+				`	Zi Er-Ta-Lik hands you a device not unlike the one he is wearing. "This will enable thee to speak with our people. Use it well, and return to us with a message from your government, the Republic."`
