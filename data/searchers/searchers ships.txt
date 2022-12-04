@@ -126,16 +126,16 @@ ship "Searcher Temple"
 
 		"Hyperdrive"
 
-	gun -18 -114 "Energy Blaster"
-	gun 18 -114 "Energy Blaster"
-	gun -18 -113.5 "Energy Blaster"
-	gun 18 -113.5 "Energy Blaster"
-	turret 0 26 "Heavy Anti-Missile Turret"
-	engine -22 118.5
-	engine 22 118.5
-	bay "Drone" -31 -6
+	gun -33.5 -80.5 "Energy Blaster"
+	gun -6.5 -97 "Energy Blaster"
+	gun 33.5 -80.5 "Energy Blaster"
+	gun 6.5 -97 "Energy Blaster"
+	turret 4 36 "Heavy Anti-Missile Turret"
+	engine -16.5 94.5
+	engine 16.5 94.5
+	bay "Drone" -33 -22
 		under
 		left
-	bay "Drone" 31 -6
+	bay "Drone" 33 -22
 		under
 		right
