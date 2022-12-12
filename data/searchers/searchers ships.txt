@@ -89,6 +89,7 @@ ship "Searcher Mortar"
 
 ship "Searcher Temple"
 	sprite "ship/searcher temple"
+	thumbnail "thumbnail/searcher temple"
 	attributes
 		category "Light Freighter"
 		"cost" 3200000
@@ -105,10 +106,10 @@ ship "Searcher Temple"
 		"weapon capacity" 80
 		"engine capacity" 160
 		weapon
-			"blast radius" 100
-			"shield damage" 100
-			"hull damage" 100
-			"hit force" 100
+			"blast radius" 88
+			"shield damage" 880
+			"hull damage" 440
+			"hit force" 1320
 	outfits
 		"Energy Blaster" 2
 		"Meteor Missile Launcher" 2
@@ -126,13 +127,78 @@ ship "Searcher Temple"
 
 		"Hyperdrive"
 
-	gun -33.5 -80.5 "Energy Blaster"
+	gun -33.5 -80.5 "Meteor Missile Launcher"
 	gun -6.5 -97 "Energy Blaster"
-	gun 33.5 -80.5 "Energy Blaster"
+	gun 33.5 -80.5 "Meteor Missile Launcher"
 	gun 6.5 -97 "Energy Blaster"
 	turret 4 36 "Heavy Anti-Missile Turret"
 	engine -16.5 94.5
 	engine 16.5 94.5
+	bay "Drone" -33 -22
+		under
+		left
+	bay "Drone" 33 -22
+		under
+		right
+
+ship "Searcher Chapel"
+	sprite "ship/searcher chapel"
+	thumbnail "thumbnail/searcher chapel"
+	attributes
+		category "Transport"
+		"cost" 5100000
+		"shields" 7000
+		"hull" 4500
+		"required crew" 45
+		"bunks" 100
+		"mass" 510
+		"drag" 13.8
+		"heat dissipation" 0.7
+		"fuel capacity" 600
+		"cargo space" 260
+		"outfit space" 650
+		"weapon capacity" 140
+		"engine capacity" 220
+		weapon
+			"blast radius" 115
+			"shield damage" 1150
+			"hull damage" 575
+			"hit force" 1725
+	outfits
+		"Energy Blaster" 2
+		"Meteor Missile Launcher" 4
+		"Meteor Missile" 120
+
+		"Heavy Anti-Missile Turret" 2
+		"Heavy Laser Turret"
+
+		"D67-TM Shield Generator"
+
+		"nGVF-CC Fuel Cell"
+		"Supercapacitor"
+		
+		"X3700 Ion Thruster"
+		"X3200 Ion Steering"
+
+		"Hyperdrive"
+
+	gun -34 -81 "Energy Blaster"
+	gun -6.5 -97.5  "Meteor Missile Launcher"
+	gun -59 -19  "Meteor Missile Launcher"
+	gun 34 81 "Energy Blaster"
+	gun 6.5 97.5  "Meteor Missile Launcher"
+	gun 59 19  "Meteor Missile Launcher"
+	turret -59 2.5 "Heavy Anti-Missile Turret"
+	turret 4 36.5 "Heavy Laser Turret"
+	turret 59 2.5 "Heavy Anti-Missile Turret"
+	engine -59 90
+		"zoom" 0.75
+	engine -16.5 94.5
+		"zoom" 0.75
+	engine 59 90
+		"zoom" 0.75
+	engine 16.5 94.5
+		"zoom" 0.75
 	bay "Drone" -33 -22
 		under
 		left
