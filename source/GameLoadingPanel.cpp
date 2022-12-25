@@ -15,15 +15,13 @@ this program. If not, see <https://www.gnu.org/licenses/>.
 
 #include "GameLoadingPanel.h"
 
+#include "text/alignment.hpp"
 #include "Angle.h"
 #include "Audio.h"
 #include "Color.h"
 #include "Conversation.h"
 #include "ConversationPanel.h"
 #include "text/DisplayText.h"
-#include "text/Font.h"
-#include "text/FontSet.h"
-#include "text/Format.h"
 #include "GameData.h"
 #include "MaskManager.h"
 #include "MenuAnimationPanel.h"
@@ -33,7 +31,6 @@ this program. If not, see <https://www.gnu.org/licenses/>.
 #include "Point.h"
 #include "PointerShader.h"
 #include "Random.h"
-#include "Screen.h"
 #include "Ship.h"
 #include "SpriteSet.h"
 #include "StarField.h"
@@ -127,18 +124,6 @@ void GameLoadingPanel::Draw()
 	}
 	PointerShader::Unbind();
 
-	// Draw the loading hint.
-	Information info;
-	info.SetString("hint", GetHint());
-	GameData::Interfaces().Get("menu background")->Draw(info, this);
-}
-
-std::string GameLoadingPanel::GetHint()
-{
-	return hint;
-}
-
-void GameLoadingPanel::UpdateHint()
-{
-	hint = GameData::Phrases().Get("loading hints")->Get();
+	DisplayText::DisplayText(Random::Int(0, sizeof(loadingHintArray) - 1), 	Layout(100, CENTER) noexcept;
+)
 }
