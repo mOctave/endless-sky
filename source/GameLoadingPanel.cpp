@@ -51,6 +51,10 @@ GameLoadingPanel::GameLoadingPanel(PlayerInfo &player, const Conversation &conve
 		finishedLoading(finishedLoading), ANGLE_OFFSET(360. / MAX_TICKS)
 {
 	SetIsFullScreen(true);
+
+	// Choose the loading hint.
+	std::vector<std::string> loadingHintArray = LoadingHints().loadingHintArray;
+	hint = loadingHintArray[Random::Int(sizeof(loadingHintArray))];
 }
 
 
