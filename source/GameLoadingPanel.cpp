@@ -52,9 +52,7 @@ GameLoadingPanel::GameLoadingPanel(PlayerInfo &player, const Conversation &conve
 {
 	SetIsFullScreen(true);
 
-	// Choose the loading hint.
-	std::vector<std::string> loadingHintArray = LoadingHints().loadingHintArray;
-	hint = loadingHintArray[Random::Int(sizeof(loadingHintArray))];
+	hint = LoadingHints().loadingHintArray[Random::Int(sizeof(LoadingHints().loadingHintArray))];
 }
 
 
@@ -131,3 +129,4 @@ void GameLoadingPanel::Draw()
 	DisplayText::DisplayText(Random::Int(0, sizeof(loadingHintArray) - 1), 	Layout(100, CENTER) noexcept;
 )
 }
+

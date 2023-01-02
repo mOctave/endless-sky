@@ -38,6 +38,7 @@ public:
 	static void UpdateHint();
 
 
+
 private:
 	PlayerInfo &player;
 	const Conversation &conversation;
