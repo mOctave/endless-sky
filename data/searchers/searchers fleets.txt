@@ -20,16 +20,63 @@ fleet "Small Searchers"
 		mining
 		harvests
 		confusion 40
-	variant
+	variant 5
+		"Searcher Temple"
+	variant 4
 		"Searcher Temple"
 		"Searcher Pestle"
-	variant
+	variant 4
+		"Searcher Temple"
+		"Searcher Mortar"
+	variant 4
 		"Searcher Temple"
 		"Searcher Pestle" 2
-	variant
+	variant 4
 		"Searcher Temple"
 		"Searcher Pestle"
 		"Searcher Mortar"
-	variant
+	variant 4
 		"Searcher Temple"
 		"Searcher Mortar" 2
+	variant 2
+		"Searcher Chapel"
+	variant 2
+		"Searcher Chapel"
+		"Searcher Pestle"
+	variant 2
+		"Searcher Chapel"
+		"Searcher Mortar"
+	variant 2
+		"Searcher Chapel"
+		"Searcher Pestle" 2
+	variant 2
+		"Searcher Chapel"
+		"Searcher Pestle"
+		"Searcher Mortar"
+	variant 2
+		"Searcher Chapel"
+		"Searcher Mortar" 2
+	variant
+		"Searcher Ziggurat"
+	variant
+		"Searcher Ziggurat"
+		"Searcher Pestle" 2
+	variant
+		"Searcher Ziggurat"
+		"Searcher Mortar" 2
+	variant
+		"Searcher Ziggurat"
+		"Searcher Pestle" 4
+	variant
+		"Searcher Ziggurat"
+		"Searcher Pestle" 6
+	variant
+		"Searcher Ziggurat"
+		"Searcher Pestle" 3
+		"Searcher Mortar" 3
+	variant
+		"Searcher Ziggurat"
+		"Searcher Mortar" 4
+	variant
+		"Searcher Ziggurat"
+		"Searcher Mortar" 6
