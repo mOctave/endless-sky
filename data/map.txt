@@ -6621,7 +6621,7 @@ system Baryon
 			distance 278
 			period 16.4891
 	object Southgate
-		sprite planet/wormhole
+		sprite planet/wormhole-searchers
 		distance 6013.31
 		period 16053.3
 		offset 28.2873
@@ -12029,7 +12029,7 @@ system Electron
 			distance 311
 			period 23.4322
 	object Northgate
-		sprite planet/wormhole
+		sprite planet/wormhole-searchers
 		distance 6000
 		period 8000
 
@@ -22048,7 +22048,7 @@ system Meson
 			distance 124
 			period 15.4653
 	object Eastgate
-		sprite planet/wormhole
+		sprite planet/wormhole-searchers
 		distance 6000
 		period 8000
 
@@ -25566,21 +25566,21 @@ system Photon
 			distance 469
 			period 53.4634
 	object Northgate
-		sprite planet/wormhole
+		sprite planet/wormhole-searchers
 		distance 6000
 		period 8000
 	object Eastgate
-		sprite planet/wormhole
+		sprite planet/wormhole-searchers
 		distance 6000
 		period 8000
 		offset 90
 	object Southgate
-		sprite planet/wormhole
+		sprite planet/wormhole-searchers
 		distance 6000
 		period 8000
 		offset 180
 	object Westgate
-		sprite planet/wormhole
+		sprite planet/wormhole-searchers
 		distance 6000
 		period 8000
 		offset 270
@@ -26530,7 +26530,7 @@ system Quark
 		period 2419.89
 		offset 9.52585
 	object Westgate
-		sprite planet/wormhole
+		sprite planet/wormhole-searchers
 		distance 6025.79
 		period 4518.03
 		offset 322.544
