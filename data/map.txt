@@ -6585,6 +6585,9 @@ system Baryon
 	trade Medical 550
 	trade Metal 390
 	trade Plastic 310
+	fleet "Small Searchers" 1200
+	fleet "Medium Searchers" 1700
+	fleet "Large Searchers" 2500
 	object
 		sprite star/m8
 		period 10
@@ -7655,6 +7658,10 @@ system Boson
 	trade Medical 770
 	trade Metal 490
 	trade Plastic 540
+	fleet "Small Searchers" 800
+	fleet "Medium Searchers" 1600
+	fleet "Large Searchers" 3000
+	fleet "Searchers Rebels" 8000
 	object
 		sprite star/g0
 		period 10
@@ -12001,6 +12008,9 @@ system Electron
 	trade Medical 660
 	trade Metal 590
 	trade Plastic 465
+	fleet "Small Searchers" 800
+	fleet "Medium Searchers" 1600
+	fleet "Large Searchers" 3000
 	object
 		sprite star/m4
 		period 10
@@ -13923,6 +13933,9 @@ system Fermion
 	trade Medical 550
 	trade Metal 290
 	trade Plastic 240
+	fleet "Small Searchers" 1000
+	fleet "Medium Searchers" 2000
+	fleet "Large Searchers" 2800
 	object
 		sprite star/k5
 		distance 35.7422
@@ -15685,6 +15698,9 @@ system Graviton
 	trade Medical 660
 	trade Metal 190
 	trade Plastic 315
+	fleet "Small Searchers" 900
+	fleet "Medium Searchers" 1900
+	fleet "Large Searchers" 3300
 	object
 		sprite star/k0
 		distance 20.1953
@@ -15700,12 +15716,14 @@ system Graviton
 		period 70.8007
 	object Calidus
 		sprite planet/cloud1
-		distance 494.545
-		period 176.435
+		distance 497.174
+		period 177.844
+		offset 17.0477
 	object
 		sprite planet/gas3
-		distance 1160.03
-		period 633.845
+		distance 1162.66
+		period 635.997
+		offset 1.99782
 		object
 			sprite planet/tethys
 			distance 261
@@ -15716,8 +15734,9 @@ system Graviton
 			period 19.0704
 	object
 		sprite planet/gas10
-		distance 2309.03
-		period 1780.01
+		distance 2311.66
+		period 1783.04
+		offset 0.357817
 		object
 			sprite planet/rhea
 			distance 227
@@ -15898,6 +15917,9 @@ system Hadron
 	trade Medical 660
 	trade Metal 290
 	trade Plastic 390
+	fleet "Small Searchers" 700
+	fleet "Medium Searchers" 1400
+	fleet "Large Searchers" 2700
 	object
 		sprite star/f5
 		period 10
@@ -19917,6 +19939,10 @@ system Lepton
 	trade Medical 890
 	trade Metal 500
 	trade Plastic 540
+	fleet "Small Searchers" 1200
+	fleet "Medium Searchers" 2300
+	fleet "Large Searchers" 4000
+	fleet "Searchers Rebels" 15000
 	object
 		sprite star/m8
 		period 10
@@ -22014,6 +22040,9 @@ system Meson
 	trade Medical 550
 	trade Metal 490
 	trade Plastic 390
+	fleet "Small Searchers" 800
+	fleet "Medium Searchers" 1600
+	fleet "Large Searchers" 3000
 	object
 		sprite star/g5
 		distance 48.1567
@@ -23208,6 +23237,9 @@ system Muon
 	trade Medical 440
 	trade Metal 390
 	trade Plastic 315
+	fleet "Small Searchers" 700
+	fleet "Medium Searchers" 1400
+	fleet "Large Searchers" 2700
 	object
 		sprite star/m4
 		period 10
@@ -25518,6 +25550,9 @@ system Photon
 	trade Medical 600
 	trade Metal 415
 	trade Plastic 300
+	fleet "Small Searchers" 1000
+	fleet "Medium Searchers" 2000
+	fleet "Large Searchers" 4000
 	object
 		sprite star/k5
 		period 10
@@ -26500,6 +26535,9 @@ system Quark
 	trade Medical 770
 	trade Metal 390
 	trade Plastic 465
+	fleet "Small Searchers" 800
+	fleet "Medium Searchers" 1600
+	fleet "Large Searchers" 3000
 	object
 		sprite star/f5
 		period 10
