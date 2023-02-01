@@ -12,6 +12,7 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 fleet "Small Searchers"
+	government "Searchers"
 	names "searchers"
 	fighters "searchers fighters"
 	personality
