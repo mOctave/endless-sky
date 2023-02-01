@@ -16,7 +16,7 @@
 
 phrase "searchers"
 	word
-		"Stl'"
+		"Stl "
 	phrase
 		"searchers syllable short"
 		"searchers syllable long"
@@ -38,7 +38,7 @@ phrase "searchers"
 
 phrase "searchers fighters"
 	word
-		"St'n'l'"
+		"0x"
 	phrase
 		"hexidecimal"
 	phrase
@@ -49,6 +49,8 @@ phrase "searchers fighters"
 		"hexidecimal"
 	phrase
 		"hexidecimal"
+	word
+		"-"
 	phrase
 		"hexidecimal"
 	phrase
@@ -88,7 +90,6 @@ phrase "searchers vowel capital"
 		"O" 2
 		"Q"
 		"Y"
-		"X"
 
 phrase "searchers vowel lowercase"
 	word
@@ -98,7 +99,6 @@ phrase "searchers vowel lowercase"
 		"o" 2
 		"q"
 		"y"
-		"x"
 
 phrase "searchers consonant capital"
 	word
@@ -119,7 +119,7 @@ phrase "searchers consonant capital"
 		"S" 3
 		"T" 3
 		"V" 2
-		"X"
+		"X" 2
 		"Z" 2
 
 phrase "searchers consonant lowercase"
@@ -141,7 +141,7 @@ phrase "searchers consonant lowercase"
 		"s" 3
 		"t" 3
 		"v" 2
-		"x"
+		"x" 2
 		"z" 2
 
 phrase "hexidecimal"

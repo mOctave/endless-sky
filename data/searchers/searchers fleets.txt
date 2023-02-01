@@ -18,7 +18,6 @@ fleet "Small Searchers"
 	personality
 		heroic
 		vindictive
-		mining
 		harvests
 		confusion 40
 	variant 5
