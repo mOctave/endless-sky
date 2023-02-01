@@ -13,6 +13,7 @@
 
 ship "Searcher Pestle"
 	sprite "ship/searcher pestle"
+	thumbnail "thumbnail/searcher pestle"
 	attributes
 		category "Drone"
 		"cost" 1000000
