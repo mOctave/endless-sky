@@ -27,3 +27,13 @@ outfit "Verum Impactor"
 	"outfit space" -7
 	"weapon capacity" -7
 	"gun ports" -1
+
+outfit "Obstructive Shield Unit"
+	category "Systems"
+	thumbnail "outfit/tiny searcher shields"
+	cost 45000
+	mass 25
+	"outfit space" -25
+	"shield generation" .3
+	"shield energy" .1 
+	description "The Obstuctive Shield Unit is the smallest module of its kind the Searchers make. It is intended for use on Searcher drones, and recharges shields moderately quickly while drawing only a very small amount of power. Unfortunately, to optimize the power usage it was necessary to increase the size of the outfit, so the Obstructive Shield Unit is quite large, as well as expensive."

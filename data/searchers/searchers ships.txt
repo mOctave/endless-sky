@@ -36,7 +36,7 @@ ship "Searcher Pestle"
 		"Energy Blaster"
 		"Anti-Missile Turret"
 
-		"D14-RN Shield Generator"
+		"Obstructive Shield Unit"
 
 		"nGVF-AA Fuel Cell"
 		"Supercapacitor"
@@ -75,7 +75,7 @@ ship "Searcher Mortar"
 		"Meteor Missile" 60
 		"Anti-Missile Turret"
 
-		"D14-RN Shield Generator"
+		"Obstructive Shield Unit"
 
 		"nGVF-AA Fuel Cell"
 		"Supercapacitor"
