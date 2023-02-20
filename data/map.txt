@@ -35991,8 +35991,13 @@ planet Earth
 		fleet "Large Republic" 50
 
 planet Eastgate
-	attributes wormhole
-	description `It's another wormhole!`
+	wormhole Eastgate
+
+wormhole Eastgate
+	mappable
+	color .4 1 .0
+	link Photon Meson
+	link Meson Photon
 
 planet Eavine
 	attributes ka'het uninhabited
@@ -37665,8 +37670,13 @@ planet Norn
 		fleet "Small Deep Security" 12
 
 planet Northgate
-	attributes wormhole
-	description `It's yet another wormhole!`
+	wormhole Northgate
+
+wormhole Northgate
+	mappable
+	color .4 1 .0
+	link Photon Electron
+	link Electron Photon
 
 planet Oasis
 	attributes farming rim textiles
@@ -38486,8 +38496,13 @@ planet "Sopi Lefarkata"
 	security 0
 
 planet Southgate
-	attributes wormhole
-	description `It's a wormhole!`
+	wormhole Southgate
+
+wormhole Southgate
+	mappable
+	color .4 1 .0
+	link Photon Baryon
+	link Baryon Photon
 
 planet "Spera Anatrusk"
 	attributes korath
@@ -39129,8 +39144,13 @@ planet "Weir of Glubatub"
 	"required reputation" 15
 
 planet Westgate
-	attributes wormhole
-	description `One last wormhole...`
+	wormhole Westgate
+
+wormhole Westgate
+	mappable
+	color .4 1 .0
+	link Photon Quark
+	link Quark Photon
 
 planet Windblain
 	attributes deep oil textiles

@@ -711,7 +711,7 @@ government "Scar's Legion (Killable)"
 	"hostile hail" "hostile pirate"
 
 government "Searchers"
-	swizzle 3
+	swizzle 17
 	color 0.2 0.7 0.8
 	"player reputation" 1
 	"crew attack" 0.6
