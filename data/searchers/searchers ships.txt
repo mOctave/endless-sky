@@ -36,7 +36,7 @@ ship "Searcher Pestle"
 		"Energy Blaster"
 		"Anti-Missile Turret"
 
-		"Obstructive Shield Unit"
+		"SSU-1 Obstructive Shield Unit"
 
 		"nGVF-AA Fuel Cell"
 		"Supercapacitor"
@@ -75,7 +75,7 @@ ship "Searcher Mortar"
 		"Meteor Missile" 60
 		"Anti-Missile Turret"
 
-		"Obstructive Shield Unit"
+		"SSU-1 Obstructive Shield Unit"
 
 		"nGVF-AA Fuel Cell"
 		"Supercapacitor"
@@ -118,7 +118,7 @@ ship "Searcher Temple"
 
 		"Heavy Anti-Missile Turret"
 
-		"D67-TM Shield Generator"
+		"SSU-2 Protective Shield Unit"
 
 		"nGVF-CC Fuel Cell"
 		"Supercapacitor"
@@ -173,7 +173,7 @@ ship "Searcher Chapel"
 		"Heavy Anti-Missile Turret" 2
 		"Heavy Laser Turret"
 
-		"D67-TM Shield Generator"
+		"SSU-3 Effective Shield Unit"
 
 		"nGVF-CC Fuel Cell"
 		"Supercapacitor"
@@ -238,7 +238,7 @@ ship "Searcher Ziggurat"
 		"Heavy Anti-Missile Turret" 2
 		"Heavy Laser Turret"
 
-		"D67-TM Shield Generator"
+		"SSU-3 Effective Shield Unit"
 
 		"nGVF-CC Fuel Cell"
 		"Supercapacitor"
@@ -305,7 +305,7 @@ ship "Searcher Cathedral"
 		"Heavy Anti-Missile Turret"
 		"Heavy Laser Turret" 2
 
-		"D67-TM Shield Generator"
+		"SSU-3 Effective Shield Unit"
 
 		"nGVF-CC Fuel Cell"
 		"Supercapacitor"
