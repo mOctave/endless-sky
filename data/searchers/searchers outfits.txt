@@ -28,7 +28,7 @@ outfit "Verum Impactor"
 	"weapon capacity" -7
 	"gun ports" -1
 
-outfit "SSU-1 Obstructive Shield Unit"
+outfit "SSU-1 Obstructive Shields"
 	category "Systems"
 	thumbnail "outfit/tiny searcher shields"
 	cost 45000
@@ -38,18 +38,17 @@ outfit "SSU-1 Obstructive Shield Unit"
 	"shield energy" .2
 	description "The SSU-1 Obstuctive Shield Unit is the smallest module of its kind the Searchers make. It is intended for use on Searcher drones, and recharges shields moderately quickly while drawing only a very small amount of power. Unfortunately, to optimize the power usage it was necessary to increase the size of the outfit, so the Obstructive Shield Unit is quite large, as well as expensive."
 
-
-outfit "SSU-2 Protective Shield Unit"
+outfit "SSU-2 Protective Shields"
 	category "Systems"
 	thumbnail "outfit/small searcher shields"
 	cost 65000
 	mass 38
 	"outfit space" -38
 	"shield generation" .5
-	"shield energy" .33
+	"shield energy" .3
 	description "The SSU-2 Protective Shield Unit is a step up from the most basic Searcher shield generation systems, designed for use in small motherships such as the Searcher Temple. It is even more energy efficient than its smaller cousin, while being marginally smaller and slightly more cost-efficient."
 
-outfit "SSU-3 Effective Shield Unit"
+outfit "SSU-3 Effective Shields"
 	category "Systems"
 	thumbnail "outfit/medium searcher shields"
 	cost 85000
@@ -58,3 +57,23 @@ outfit "SSU-3 Effective Shield Unit"
 	"shield generation" .7
 	"shield energy" .4
 	description "The SSU-3 Effective Shield Unit is designed as a considerably more modern, efficient shield module for Searcher ships. It fits well as a medium-strength module: smaller than the enormous units designed for capital ships, but still powerful enough to be useful."
+
+outfit "SSU-4 Reliable Shields"
+	category "Systems"
+	thumbnail "outfit/large searcher shields"
+	cost 115000
+	mass 69
+	"outfit space" -69
+	"shield generation" 1
+	"shield energy" .6
+	description "The SSU-4 Reliable Shield Unit has been in use for centuries as a shield module built with small capital ships in mind. It is undeniably large but also quite powerful, comparable to the largest shield generators available in human space. Although it is quite bulky and not quite as energy efficient as the newer SSU-3, the SSU-4 is still a very capable shield generation unit."
+
+outfit "SSU-5 Adamantine Shields"
+	category "Systems"
+	thumbnail "outfit/huge searcher shields"
+	cost 205000
+	mass 125
+	"outfit space" -125
+	"shield generation" 1.9
+	"shield energy" 1.1
+	description "The SSU-5 Adamantine Shield Unit is the largest shield module the Searchers have ever built. It is insanely capable, far more advanced than anything humans have produced, despite its large size. Overall, this outfit is very impressive considering that the Searchers have never fought a major war in space where they needed to use shielding, and that it was originally designed to help protect large ships from asteroids."
