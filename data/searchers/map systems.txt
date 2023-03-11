@@ -1,0 +1,733 @@
+# Copyright (c) 2023 by mOctave
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+system Baryon
+	pos -904.527 -89.1754
+	government Searchers
+	habitable 135
+	belt 1332
+	link Fermion
+	link Hadron
+	link Muon
+	asteroids "medium rock" 1 2.4804
+	asteroids "large rock" 1 1.638
+	asteroids "small metal" 5 3.1356
+	asteroids "medium metal" 11 1.872
+	asteroids "large metal" 7 2.808
+	minables copper 1 4.46971
+	minables lead 1 3.98935
+	minables uranium 1 2.95899
+	trade Clothing 240
+	trade Electronics 770
+	trade Equipment 550
+	trade Food 100
+	trade "Heavy Metals" 940
+	trade Industrial 820
+	trade "Luxury Goods" 1100
+	trade Medical 550
+	trade Metal 390
+	trade Plastic 310
+	fleet "Small Searchers" 1200
+	fleet "Medium Searchers" 1700
+	fleet "Large Searchers" 2500
+	object
+		sprite star/m8
+		period 10
+	object Cibus
+		sprite planet/ice2
+		distance 165
+		period 72.9657
+	object
+		sprite planet/neptune
+		distance 617
+		period 527.62
+		object
+			sprite planet/desert4
+			distance 213
+			period 15.4882
+	object
+		sprite planet/gas8
+		distance 1220.49
+		period 1467.89
+		object
+			sprite planet/dust3
+			distance 186
+			period 13.5035
+		object
+			sprite planet/dust7
+			distance 270
+			period 23.6169
+	object
+		sprite planet/gas7
+		distance 2306.5
+		period 3813.5
+		object
+			sprite planet/ice7
+			distance 278
+			period 16.4891
+	object Southgate
+		sprite planet/wormhole-searchers
+		distance 6013.31
+		period 16053.3
+		offset 28.2873
+
+system Boson
+	pos -953.527 -327.175
+	government Searchers
+	habitable 1080
+	belt 1650
+	link Electron
+	link Quark
+	asteroids "small rock" 34 8.9146
+	asteroids "medium rock" 20 9.5874
+	asteroids "large rock" 78 10.8489
+	asteroids "small metal" 6 9.5874
+	asteroids "medium metal" 25 4.6255
+	asteroids "large metal" 25 9.5874
+	minables aluminum 17 12.9864
+	minables iron 14 9.64648
+	trade Clothing 340
+	trade Electronics 650
+	trade Equipment 440
+	trade Food 457
+	trade "Heavy Metals" 830
+	trade Industrial 520
+	trade "Luxury Goods" 1140
+	trade Medical 770
+	trade Metal 490
+	trade Plastic 540
+	fleet "Small Searchers" 800
+	fleet "Medium Searchers" 1600
+	fleet "Large Searchers" 3000
+	fleet "Searchers Rebels" 8000
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/gas7
+		distance 703.16
+		period 226.95
+		object
+			sprite planet/ice8
+			distance 240
+			period 13.2266
+		object Fornax
+			sprite planet/ice0
+			distance 325
+			period 20.8428
+		object
+			sprite planet/rock14
+			distance 441
+			period 32.9449
+		object
+			sprite planet/dust0
+			distance 595
+			period 51.6305
+	object
+		sprite planet/gas12
+		distance 1705.25
+		period 857.097
+		object
+			sprite planet/desert4
+			distance 274
+			period 11.9127
+
+system Electron
+	pos -882.118 -327.247
+	government Searchers
+	habitable 233.28
+	belt 1158
+	link Boson
+	link Meson
+	asteroids "small rock" 26 0.924
+	asteroids "medium rock" 1 1.7094
+	asteroids "large rock" 2 2.079
+	asteroids "medium metal" 1 1.3552
+	asteroids "large metal" 1 1.0164
+	minables gold 6 1.38627
+	minables iron 5 2.01592
+	minables titanium 3 1.8775
+	trade Clothing 440
+	trade Electronics 590
+	trade Equipment 550
+	trade Food 430
+	trade "Heavy Metals" 940
+	trade Industrial 620
+	trade "Luxury Goods" 1030
+	trade Medical 660
+	trade Metal 590
+	trade Plastic 465
+	fleet "Small Searchers" 800
+	fleet "Medium Searchers" 1600
+	fleet "Large Searchers" 3000
+	object
+		sprite star/m4
+		period 10
+	object Fulmen
+		sprite planet/rock10
+		distance 248.81
+		period 102.783
+	object
+		sprite planet/rock13
+		distance 646.05
+		period 430.051
+	object
+		sprite planet/rock5
+		distance 1272.05
+		period 1188.17
+	object
+		sprite planet/uranus
+		distance 2375.09
+		period 3031.39
+		object
+			sprite planet/tethys
+			distance 198
+			period 11.9034
+		object
+			sprite planet/ice7
+			distance 311
+			period 23.4322
+	object Northgate
+		sprite planet/wormhole-searchers
+		distance 6000
+		period 8000
+
+system Fermion
+	pos -892.342 -24.3184
+	government Searchers
+	habitable 659.2
+	belt 1300
+	link Baryon
+	link Graviton
+	link Muon
+	asteroids "small rock" 46 5.3352
+	asteroids "medium rock" 128 6.2712
+	asteroids "large rock" 71 4.68
+	asteroids "small metal" 10 6.9732
+	asteroids "medium metal" 23 4.0716
+	asteroids "large metal" 11 5.2416
+	minables titanium 6 10.5951
+	minables tungsten 31 7.55286
+	trade Clothing 345
+	trade Electronics 770
+	trade Equipment 665
+	trade Food 200
+	trade "Heavy Metals" 1060
+	trade Industrial 920
+	trade "Luxury Goods" 1130
+	trade Medical 550
+	trade Metal 290
+	trade Plastic 240
+	fleet "Small Searchers" 1000
+	fleet "Medium Searchers" 2000
+	fleet "Large Searchers" 2800
+	object
+		sprite star/k5
+		distance 35.7422
+		period 15.8137
+	object
+		sprite star/m4
+		distance 65.2578
+		period 15.8137
+		offset 180
+	object
+		sprite planet/ice4
+		distance 224.258
+		period 52.3206
+	object
+		sprite planet/gas2
+		distance 587.748
+		period 221.992
+		object Ligo
+			sprite planet/dust3
+			distance 169
+			period 13.312
+	object
+		sprite planet/gas1
+		distance 1507.64
+		period 912.004
+		object
+			sprite planet/tethys
+			distance 227
+			period 13.6696
+		object
+			sprite planet/dust1
+			distance 343
+			period 25.3897
+	object
+		sprite planet/gas12
+		distance 2664
+		period 2142.16
+		object
+			sprite planet/luna
+			distance 307
+			period 14.1284
+
+system Graviton
+	pos -971.979 -55.1117
+	government Searchers
+	habitable 621.68
+	belt 1271
+	link Fermion
+	link Hadron
+	asteroids "small rock" 1 2.55
+	asteroids "medium rock" 20 3.468
+	asteroids "large rock" 1 4.488
+	asteroids "small metal" 1 2.601
+	asteroids "medium metal" 9 7.089
+	asteroids "large metal" 1 5.61
+	minables iron 8 7.33955
+	minables silicon 1 5.41472
+	minables titanium 1 7.48796
+	trade Clothing 230
+	trade Electronics 830
+	trade Equipment 555
+	trade Food 300
+	trade "Heavy Metals" 945
+	trade Industrial 820
+	trade "Luxury Goods" 1230
+	trade Medical 660
+	trade Metal 190
+	trade Plastic 315
+	fleet "Small Searchers" 900
+	fleet "Medium Searchers" 1900
+	fleet "Large Searchers" 3300
+	object
+		sprite star/k0
+		distance 20.1953
+		period 14.388
+		offset 180
+	object
+		sprite star/m8
+		distance 72.8047
+		period 14.388
+	object Aes
+		sprite planet/rock13
+		distance 269.055
+		period 70.8007
+	object Calidus
+		sprite planet/cloud1
+		distance 497.174
+		period 177.844
+		offset 17.0477
+	object
+		sprite planet/gas3
+		distance 1162.66
+		period 635.997
+		offset 1.99782
+		object
+			sprite planet/tethys
+			distance 261
+			period 10.7702
+		object
+			sprite planet/callisto
+			distance 382
+			period 19.0704
+	object
+		sprite planet/gas10
+		distance 2311.66
+		period 1783.04
+		offset 0.357817
+		object
+			sprite planet/rhea
+			distance 227
+			period 18.0026
+
+system Hadron
+	pos -1017.53 -116.175
+	government Searchers
+	habitable 1715
+	belt 1076
+	link Baryon
+	link Graviton
+	link Quark
+	asteroids "small rock" 5 3.417
+	asteroids "medium rock" 23 6.12
+	asteroids "large rock" 25 6.579
+	asteroids "small metal" 1 2.958
+	asteroids "medium metal" 40 5.559
+	asteroids "large metal" 75 7.089
+	minables copper 8 6.40563
+	minables lead 26 8.19384
+	trade Clothing 140
+	trade Electronics 770
+	trade Equipment 440
+	trade Food 219
+	trade "Heavy Metals" 830
+	trade Industrial 720
+	trade "Luxury Goods" 1210
+	trade Medical 660
+	trade Metal 290
+	trade Plastic 390
+	fleet "Small Searchers" 700
+	fleet "Medium Searchers" 1400
+	fleet "Large Searchers" 2700
+	object
+		sprite star/f5
+		period 10
+	object
+		sprite planet/cloud3
+		distance 201.81
+		period 27.6912
+	object
+		sprite planet/dust0
+		distance 474.17
+		period 99.7307
+	object
+		sprite planet/desert8
+		distance 723.42
+		period 187.938
+		object
+			sprite planet/tethys
+			distance 123
+			period 17.497
+	object Tela
+		sprite planet/europa
+		distance 1470.71
+		period 544.777
+	object
+		sprite planet/gas9
+		distance 3201.42
+		period 1749.61
+		offset 43.6344
+
+system Lepton
+	pos -1078.14 -286.218
+	government Searchers
+	habitable 135
+	belt 1178
+	link Quark
+	asteroids "small rock" 43 7.192
+	asteroids "medium rock" 43 5.452
+	asteroids "large rock" 13 4.524
+	asteroids "medium metal" 3 7.076
+	asteroids "large metal" 3 3.886
+	minables iron 17 9.50664
+	minables uranium 23 10.5535
+	trade Clothing 350
+	trade Electronics 790
+	trade Equipment 445
+	trade Food 450
+	trade "Heavy Metals" 610
+	trade Industrial 730
+	trade "Luxury Goods" 1365
+	trade Medical 890
+	trade Metal 500
+	trade Plastic 540
+	fleet "Small Searchers" 1200
+	fleet "Medium Searchers" 2300
+	fleet "Large Searchers" 4000
+	fleet "Searchers Rebels" 15000
+	object
+		sprite star/m8
+		period 10
+	object Sacoma
+		sprite planet/ocean0
+		distance 296.76
+		period 175.995
+		object
+			sprite planet/dust7
+			distance 140
+			period 20.0175
+	object
+		sprite planet/neptune
+		distance 945.77
+		period 1001.32
+		object
+			sprite planet/dust5
+			distance 227
+			period 17.0401
+		object
+			sprite planet/rock3
+			distance 359
+			period 33.8902
+	object
+		sprite planet/uranus
+		distance 1637.58
+		period 2281.38
+		object
+			sprite planet/europa
+			distance 198
+			period 11.9034
+	object
+		sprite planet/gas3
+		distance 2185.42
+		period 3517.19
+
+system Meson
+	pos -801.527 -189.175
+	government Searchers
+	habitable 1111.68
+	belt 1442
+	link Electron
+	link Muon
+	asteroids "large metal" 1 1.0208
+	trade Clothing 440
+	trade Electronics 650
+	trade Equipment 660
+	trade Food 320
+	trade "Heavy Metals" 1055
+	trade Industrial 720
+	trade "Luxury Goods" 920
+	trade Medical 550
+	trade Metal 490
+	trade Plastic 390
+	fleet "Small Searchers" 800
+	fleet "Medium Searchers" 1600
+	fleet "Large Searchers" 3000
+	object
+		sprite star/g5
+		distance 48.1567
+		period 13.8407
+		offset 180
+	object
+		sprite star/k0
+		distance 61.8433
+		period 13.8407
+	object
+		sprite planet/rock14
+		distance 199.333
+		period 33.7629
+	object
+		sprite planet/uranus
+		distance 726.573
+		period 234.957
+		object
+			sprite planet/rock0
+			distance 220
+			period 13.9414
+	object
+		sprite planet/gas5
+		distance 1474.78
+		period 679.458
+	object Aurum
+		sprite planet/forest1
+		distance 1955.94
+		period 1037.78
+		object
+			sprite planet/miranda
+			distance 124
+			period 15.4653
+	object Eastgate
+		sprite planet/wormhole-searchers
+		distance 6000
+		period 8000
+
+system Muon
+	pos -817.527 -122.175
+	government Searchers
+	habitable 233.28
+	belt 1551
+	link Baryon
+	link Fermion
+	link Meson
+	asteroids "medium rock" 22 3.197
+	asteroids "large rock" 1 1.748
+	asteroids "small metal" 32 2.07
+	asteroids "medium metal" 38 1.242
+	asteroids "large metal" 60 3.266
+	minables iron 23 3.12164
+	minables lead 16 2.7626
+	trade Clothing 340
+	trade Electronics 710
+	trade Equipment 660
+	trade Food 210
+	trade "Heavy Metals" 1050
+	trade Industrial 820
+	trade "Luxury Goods" 1030
+	trade Medical 440
+	trade Metal 390
+	trade Plastic 315
+	fleet "Small Searchers" 700
+	fleet "Medium Searchers" 1400
+	fleet "Large Searchers" 2700
+	object
+		sprite star/m4
+		period 10
+	object Salus
+		sprite planet/desert6
+		distance 183.25
+		period 64.9662
+	object
+		sprite planet/rock19
+		distance 634.66
+		period 418.729
+		object
+			sprite planet/rock3
+			distance 133
+			period 20.499
+	object
+		sprite planet/gas12
+		distance 1234.07
+		period 1135.35
+	object
+		sprite planet/gas16
+		distance 1970.56
+		period 2290.9
+		object
+			sprite planet/luna
+			distance 189
+			period 13.677
+		object
+			sprite planet/ice7
+			distance 312
+			period 29.0088
+
+system Photon
+	pos -934.527 -206.175
+	government Searchers
+	habitable 425.92
+	belt 1209
+	asteroids "small rock" 7 4.2804
+	asteroids "medium rock" 15 6.5772
+	asteroids "large rock" 55 6.4206
+	asteroids "small metal" 11 5.3244
+	asteroids "medium metal" 113 7.4124
+	asteroids "large metal" 40 7.6212
+	minables iron 52 10.8438
+	trade Clothing 350
+	trade Electronics 650
+	trade Equipment 350
+	trade Food 150
+	trade "Heavy Metals" 1300
+	trade Industrial 750
+	trade "Luxury Goods" 1400
+	trade Medical 600
+	trade Metal 415
+	trade Plastic 300
+	fleet "Small Searchers" 1000
+	fleet "Medium Searchers" 2000
+	fleet "Large Searchers" 4000
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/dust3
+		distance 121.25
+		period 25.8773
+	object Domum
+		sprite planet/water1
+		distance 337.89
+		period 120.381
+	object
+		sprite planet/rock15
+		distance 556.7
+		period 254.582
+	object
+		sprite planet/jupiter
+		distance 1262.91
+		period 869.87
+		object
+			sprite planet/rock0
+			distance 269
+			period 13.864
+		object
+			sprite planet/oberon
+			distance 361
+			period 21.5537
+		object
+			sprite planet/desert4
+			distance 488
+			period 33.8759
+	object
+		sprite planet/gas16
+		distance 3462.87
+		period 3949.57
+		object
+			sprite planet/miranda
+			distance 218
+			period 16.9427
+		object
+			sprite planet/lava0
+			distance 340
+			period 33.0001
+		object
+			sprite planet/europa
+			distance 469
+			period 53.4634
+	object Northgate
+		sprite planet/wormhole-searchers
+		distance 6000
+		period 8000
+	object Eastgate
+		sprite planet/wormhole-searchers
+		distance 6000
+		period 8000
+		offset 90
+	object Southgate
+		sprite planet/wormhole-searchers
+		distance 6000
+		period 8000
+		offset 180
+	object Westgate
+		sprite planet/wormhole-searchers
+		distance 6000
+		period 8000
+		offset 270
+
+system Quark
+	pos -1038.53 -254.175
+	government Searchers
+	habitable 1715
+	belt 1115
+	link Boson
+	link Hadron
+	link Lepton
+	asteroids "large metal" 1 2.3736
+	trade Clothing 240
+	trade Electronics 710
+	trade Equipment 330
+	trade Food 338
+	trade "Heavy Metals" 720
+	trade Industrial 620
+	trade "Luxury Goods" 1250
+	trade Medical 770
+	trade Metal 390
+	trade Plastic 465
+	fleet "Small Searchers" 800
+	fleet "Medium Searchers" 1600
+	fleet "Large Searchers" 3000
+	object
+		sprite star/f5
+		period 10
+	object
+		sprite planet/ice0
+		distance 192.56
+		period 25.8093
+	object
+		sprite planet/rock3
+		distance 498.81
+		period 107.605
+	object
+		sprite planet/lava5
+		distance 888.97
+		period 256.011
+	object
+		sprite planet/water1
+		distance 1443.22
+		period 529.574
+	object Apto
+		sprite planet/cloud3
+		distance 1743.47
+		period 703.153
+		offset 37.3797
+	object
+		sprite planet/jupiter
+		distance 3974.16
+		period 2419.89
+		offset 9.52585
+	object Westgate
+		sprite planet/wormhole-searchers
+		distance 6025.79
+		period 4518.03
+		offset 322.544

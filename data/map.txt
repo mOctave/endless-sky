@@ -6559,76 +6559,6 @@ system Aya'k'k
 		period 2983.58
 		arrival 500
 
-system Baryon
-	pos -904.527 -89.1754
-	government Searchers
-	habitable 135
-	belt 1332
-	link Fermion
-	link Hadron
-	link Muon
-	asteroids "medium rock" 1 2.4804
-	asteroids "large rock" 1 1.638
-	asteroids "small metal" 5 3.1356
-	asteroids "medium metal" 11 1.872
-	asteroids "large metal" 7 2.808
-	minables copper 1 4.46971
-	minables lead 1 3.98935
-	minables uranium 1 2.95899
-	trade Clothing 240
-	trade Electronics 770
-	trade Equipment 550
-	trade Food 100
-	trade "Heavy Metals" 940
-	trade Industrial 820
-	trade "Luxury Goods" 1100
-	trade Medical 550
-	trade Metal 390
-	trade Plastic 310
-	fleet "Small Searchers" 1200
-	fleet "Medium Searchers" 1700
-	fleet "Large Searchers" 2500
-	object
-		sprite star/m8
-		period 10
-	object Cibus
-		sprite planet/ice2
-		distance 165
-		period 72.9657
-	object
-		sprite planet/neptune
-		distance 617
-		period 527.62
-		object
-			sprite planet/desert4
-			distance 213
-			period 15.4882
-	object
-		sprite planet/gas8
-		distance 1220.49
-		period 1467.89
-		object
-			sprite planet/dust3
-			distance 186
-			period 13.5035
-		object
-			sprite planet/dust7
-			distance 270
-			period 23.6169
-	object
-		sprite planet/gas7
-		distance 2306.5
-		period 3813.5
-		object
-			sprite planet/ice7
-			distance 278
-			period 16.4891
-	object Southgate
-		sprite planet/wormhole-searchers
-		distance 6013.31
-		period 16053.3
-		offset 28.2873
-
 system Beginning
 	pos -912.587 694.051
 	government Coalition
@@ -7632,67 +7562,6 @@ system "Bore Fah"
 			distance 388
 			period 21.5754
 			arrival 625
-
-system Boson
-	pos -953.527 -327.175
-	government Searchers
-	habitable 1080
-	belt 1650
-	link Electron
-	link Quark
-	asteroids "small rock" 34 8.9146
-	asteroids "medium rock" 20 9.5874
-	asteroids "large rock" 78 10.8489
-	asteroids "small metal" 6 9.5874
-	asteroids "medium metal" 25 4.6255
-	asteroids "large metal" 25 9.5874
-	minables aluminum 17 12.9864
-	minables iron 14 9.64648
-	trade Clothing 340
-	trade Electronics 650
-	trade Equipment 440
-	trade Food 457
-	trade "Heavy Metals" 830
-	trade Industrial 520
-	trade "Luxury Goods" 1140
-	trade Medical 770
-	trade Metal 490
-	trade Plastic 540
-	fleet "Small Searchers" 800
-	fleet "Medium Searchers" 1600
-	fleet "Large Searchers" 3000
-	fleet "Searchers Rebels" 8000
-	object
-		sprite star/g0
-		period 10
-	object
-		sprite planet/gas7
-		distance 703.16
-		period 226.95
-		object
-			sprite planet/ice8
-			distance 240
-			period 13.2266
-		object Fornax
-			sprite planet/ice0
-			distance 325
-			period 20.8428
-		object
-			sprite planet/rock14
-			distance 441
-			period 32.9449
-		object
-			sprite planet/dust0
-			distance 595
-			period 51.6305
-	object
-		sprite planet/gas12
-		distance 1705.25
-		period 857.097
-		object
-			sprite planet/desert4
-			distance 274
-			period 11.9127
 
 system "Bote Asu"
 	pos 8.87418 -572.768
@@ -11983,66 +11852,6 @@ system Ekuarik
 		attributes ringworld
 		arrival 700
 
-system Electron
-	pos -882.118 -327.247
-	government Searchers
-	habitable 233.28
-	belt 1158
-	link Boson
-	link Meson
-	asteroids "small rock" 26 0.924
-	asteroids "medium rock" 1 1.7094
-	asteroids "large rock" 2 2.079
-	asteroids "medium metal" 1 1.3552
-	asteroids "large metal" 1 1.0164
-	minables gold 6 1.38627
-	minables iron 5 2.01592
-	minables titanium 3 1.8775
-	trade Clothing 440
-	trade Electronics 590
-	trade Equipment 550
-	trade Food 430
-	trade "Heavy Metals" 940
-	trade Industrial 620
-	trade "Luxury Goods" 1030
-	trade Medical 660
-	trade Metal 590
-	trade Plastic 465
-	fleet "Small Searchers" 800
-	fleet "Medium Searchers" 1600
-	fleet "Large Searchers" 3000
-	object
-		sprite star/m4
-		period 10
-	object Fulmen
-		sprite planet/rock10
-		distance 248.81
-		period 102.783
-	object
-		sprite planet/rock13
-		distance 646.05
-		period 430.051
-	object
-		sprite planet/rock5
-		distance 1272.05
-		period 1188.17
-	object
-		sprite planet/uranus
-		distance 2375.09
-		period 3031.39
-		object
-			sprite planet/tethys
-			distance 198
-			period 11.9034
-		object
-			sprite planet/ice7
-			distance 311
-			period 23.4322
-	object Northgate
-		sprite planet/wormhole-searchers
-		distance 6000
-		period 8000
-
 system Elnath
 	pos -288 -77
 	government Republic
@@ -13907,77 +13716,6 @@ system Fereti
 			hazard "Ember Waste Base Heat" 100
 			hazard "Ember Waste Base Storm" 9000
 
-system Fermion
-	pos -892.342 -24.3184
-	government Searchers
-	habitable 659.2
-	belt 1300
-	link Baryon
-	link Graviton
-	link Muon
-	asteroids "small rock" 46 5.3352
-	asteroids "medium rock" 128 6.2712
-	asteroids "large rock" 71 4.68
-	asteroids "small metal" 10 6.9732
-	asteroids "medium metal" 23 4.0716
-	asteroids "large metal" 11 5.2416
-	minables titanium 6 10.5951
-	minables tungsten 31 7.55286
-	trade Clothing 345
-	trade Electronics 770
-	trade Equipment 665
-	trade Food 200
-	trade "Heavy Metals" 1060
-	trade Industrial 920
-	trade "Luxury Goods" 1130
-	trade Medical 550
-	trade Metal 290
-	trade Plastic 240
-	fleet "Small Searchers" 1000
-	fleet "Medium Searchers" 2000
-	fleet "Large Searchers" 2800
-	object
-		sprite star/k5
-		distance 35.7422
-		period 15.8137
-	object
-		sprite star/m4
-		distance 65.2578
-		period 15.8137
-		offset 180
-	object
-		sprite planet/ice4
-		distance 224.258
-		period 52.3206
-	object
-		sprite planet/gas2
-		distance 587.748
-		period 221.992
-		object Ligo
-			sprite planet/dust3
-			distance 169
-			period 13.312
-	object
-		sprite planet/gas1
-		distance 1507.64
-		period 912.004
-		object
-			sprite planet/tethys
-			distance 227
-			period 13.6696
-		object
-			sprite planet/dust1
-			distance 343
-			period 25.3897
-	object
-		sprite planet/gas12
-		distance 2664
-		period 2142.16
-		object
-			sprite planet/luna
-			distance 307
-			period 14.1284
-
 system Feroteri
 	pos 149.431 -205.812
 	government Uninhabited
@@ -15672,76 +15410,6 @@ system Graffias
 			attributes south
 			arrival 980
 
-system Graviton
-	pos -971.979 -55.1117
-	government Searchers
-	habitable 621.68
-	belt 1271
-	link Fermion
-	link Hadron
-	asteroids "small rock" 1 2.55
-	asteroids "medium rock" 20 3.468
-	asteroids "large rock" 1 4.488
-	asteroids "small metal" 1 2.601
-	asteroids "medium metal" 9 7.089
-	asteroids "large metal" 1 5.61
-	minables iron 8 7.33955
-	minables silicon 1 5.41472
-	minables titanium 1 7.48796
-	trade Clothing 230
-	trade Electronics 830
-	trade Equipment 555
-	trade Food 300
-	trade "Heavy Metals" 945
-	trade Industrial 820
-	trade "Luxury Goods" 1230
-	trade Medical 660
-	trade Metal 190
-	trade Plastic 315
-	fleet "Small Searchers" 900
-	fleet "Medium Searchers" 1900
-	fleet "Large Searchers" 3300
-	object
-		sprite star/k0
-		distance 20.1953
-		period 14.388
-		offset 180
-	object
-		sprite star/m8
-		distance 72.8047
-		period 14.388
-	object Aes
-		sprite planet/rock13
-		distance 269.055
-		period 70.8007
-	object Calidus
-		sprite planet/cloud1
-		distance 497.174
-		period 177.844
-		offset 17.0477
-	object
-		sprite planet/gas3
-		distance 1162.66
-		period 635.997
-		offset 1.99782
-		object
-			sprite planet/tethys
-			distance 261
-			period 10.7702
-		object
-			sprite planet/callisto
-			distance 382
-			period 19.0704
-	object
-		sprite planet/gas10
-		distance 2311.66
-		period 1783.04
-		offset 0.357817
-		object
-			sprite planet/rhea
-			distance 227
-			period 18.0026
-
 system Gupta
 	pos -808.587 625.051
 	government Coalition
@@ -15890,64 +15558,6 @@ system Hadar
 			period 13.7068
 			attributes rim
 			arrival 500
-
-system Hadron
-	pos -1017.53 -116.175
-	government Searchers
-	habitable 1715
-	belt 1076
-	link Baryon
-	link Graviton
-	link Quark
-	asteroids "small rock" 5 3.417
-	asteroids "medium rock" 23 6.12
-	asteroids "large rock" 25 6.579
-	asteroids "small metal" 1 2.958
-	asteroids "medium metal" 40 5.559
-	asteroids "large metal" 75 7.089
-	minables copper 8 6.40563
-	minables lead 26 8.19384
-	trade Clothing 140
-	trade Electronics 770
-	trade Equipment 440
-	trade Food 219
-	trade "Heavy Metals" 830
-	trade Industrial 720
-	trade "Luxury Goods" 1210
-	trade Medical 660
-	trade Metal 290
-	trade Plastic 390
-	fleet "Small Searchers" 700
-	fleet "Medium Searchers" 1400
-	fleet "Large Searchers" 2700
-	object
-		sprite star/f5
-		period 10
-	object
-		sprite planet/cloud3
-		distance 201.81
-		period 27.6912
-	object
-		sprite planet/dust0
-		distance 474.17
-		period 99.7307
-	object
-		sprite planet/desert8
-		distance 723.42
-		period 187.938
-		object
-			sprite planet/tethys
-			distance 123
-			period 17.497
-	object Tela
-		sprite planet/europa
-		distance 1470.71
-		period 544.777
-	object
-		sprite planet/gas9
-		distance 3201.42
-		period 1749.61
-		offset 43.6344
 
 system Hamal
 	pos -129 24
@@ -19916,69 +19526,6 @@ system "Last Word"
 		period 5525.77
 		arrival 625
 
-system Lepton
-	pos -1078.14 -286.218
-	government Searchers
-	habitable 135
-	belt 1178
-	link Quark
-	asteroids "small rock" 43 7.192
-	asteroids "medium rock" 43 5.452
-	asteroids "large rock" 13 4.524
-	asteroids "medium metal" 3 7.076
-	asteroids "large metal" 3 3.886
-	minables iron 17 9.50664
-	minables uranium 23 10.5535
-	trade Clothing 350
-	trade Electronics 790
-	trade Equipment 445
-	trade Food 450
-	trade "Heavy Metals" 610
-	trade Industrial 730
-	trade "Luxury Goods" 1365
-	trade Medical 890
-	trade Metal 500
-	trade Plastic 540
-	fleet "Small Searchers" 1200
-	fleet "Medium Searchers" 2300
-	fleet "Large Searchers" 4000
-	fleet "Searchers Rebels" 15000
-	object
-		sprite star/m8
-		period 10
-	object Sacoma
-		sprite planet/ocean0
-		distance 296.76
-		period 175.995
-		object
-			sprite planet/dust7
-			distance 140
-			period 20.0175
-	object
-		sprite planet/neptune
-		distance 945.77
-		period 1001.32
-		object
-			sprite planet/dust5
-			distance 227
-			period 17.0401
-		object
-			sprite planet/rock3
-			distance 359
-			period 33.8902
-	object
-		sprite planet/uranus
-		distance 1637.58
-		period 2281.38
-		object
-			sprite planet/europa
-			distance 198
-			period 11.9034
-	object
-		sprite planet/gas3
-		distance 2185.42
-		period 3517.19
-
 system Lesath
 	pos -516 485
 	government Republic
@@ -22022,65 +21569,6 @@ system Merak
 		attributes "near earth"
 		arrival 1115
 
-system Meson
-	pos -801.527 -189.175
-	government Searchers
-	habitable 1111.68
-	belt 1442
-	link Electron
-	link Muon
-	asteroids "large metal" 1 1.0208
-	trade Clothing 440
-	trade Electronics 650
-	trade Equipment 660
-	trade Food 320
-	trade "Heavy Metals" 1055
-	trade Industrial 720
-	trade "Luxury Goods" 920
-	trade Medical 550
-	trade Metal 490
-	trade Plastic 390
-	fleet "Small Searchers" 800
-	fleet "Medium Searchers" 1600
-	fleet "Large Searchers" 3000
-	object
-		sprite star/g5
-		distance 48.1567
-		period 13.8407
-		offset 180
-	object
-		sprite star/k0
-		distance 61.8433
-		period 13.8407
-	object
-		sprite planet/rock14
-		distance 199.333
-		period 33.7629
-	object
-		sprite planet/uranus
-		distance 726.573
-		period 234.957
-		object
-			sprite planet/rock0
-			distance 220
-			period 13.9414
-	object
-		sprite planet/gas5
-		distance 1474.78
-		period 679.458
-	object Aurum
-		sprite planet/forest1
-		distance 1955.94
-		period 1037.78
-		object
-			sprite planet/miranda
-			distance 124
-			period 15.4653
-	object Eastgate
-		sprite planet/wormhole-searchers
-		distance 6000
-		period 8000
-
 system Mesuket
 	pos 220.431 -409.812
 	government Uninhabited
@@ -23211,66 +22699,6 @@ system Muhlifain
 		period 2049.23
 		attributes "dirt belt"
 		arrival 500
-
-system Muon
-	pos -817.527 -122.175
-	government Searchers
-	habitable 233.28
-	belt 1551
-	link Baryon
-	link Fermion
-	link Meson
-	asteroids "medium rock" 22 3.197
-	asteroids "large rock" 1 1.748
-	asteroids "small metal" 32 2.07
-	asteroids "medium metal" 38 1.242
-	asteroids "large metal" 60 3.266
-	minables iron 23 3.12164
-	minables lead 16 2.7626
-	trade Clothing 340
-	trade Electronics 710
-	trade Equipment 660
-	trade Food 210
-	trade "Heavy Metals" 1050
-	trade Industrial 820
-	trade "Luxury Goods" 1030
-	trade Medical 440
-	trade Metal 390
-	trade Plastic 315
-	fleet "Small Searchers" 700
-	fleet "Medium Searchers" 1400
-	fleet "Large Searchers" 2700
-	object
-		sprite star/m4
-		period 10
-	object Salus
-		sprite planet/desert6
-		distance 183.25
-		period 64.9662
-	object
-		sprite planet/rock19
-		distance 634.66
-		period 418.729
-		object
-			sprite planet/rock3
-			distance 133
-			period 20.499
-	object
-		sprite planet/gas12
-		distance 1234.07
-		period 1135.35
-	object
-		sprite planet/gas16
-		distance 1970.56
-		period 2290.9
-		object
-			sprite planet/luna
-			distance 189
-			period 13.677
-		object
-			sprite planet/ice7
-			distance 312
-			period 29.0088
 
 system Muphrid
 	pos -495 152
@@ -25528,98 +24956,6 @@ system Pherkad
 			attributes south
 			arrival 500
 
-system Photon
-	pos -934.527 -206.175
-	government Searchers
-	habitable 425.92
-	belt 1209
-	asteroids "small rock" 7 4.2804
-	asteroids "medium rock" 15 6.5772
-	asteroids "large rock" 55 6.4206
-	asteroids "small metal" 11 5.3244
-	asteroids "medium metal" 113 7.4124
-	asteroids "large metal" 40 7.6212
-	minables iron 52 10.8438
-	trade Clothing 350
-	trade Electronics 650
-	trade Equipment 350
-	trade Food 150
-	trade "Heavy Metals" 1300
-	trade Industrial 750
-	trade "Luxury Goods" 1400
-	trade Medical 600
-	trade Metal 415
-	trade Plastic 300
-	fleet "Small Searchers" 1000
-	fleet "Medium Searchers" 2000
-	fleet "Large Searchers" 4000
-	object
-		sprite star/k5
-		period 10
-	object
-		sprite planet/dust3
-		distance 121.25
-		period 25.8773
-	object Domum
-		sprite planet/water1
-		distance 337.89
-		period 120.381
-	object
-		sprite planet/rock15
-		distance 556.7
-		period 254.582
-	object
-		sprite planet/jupiter
-		distance 1262.91
-		period 869.87
-		object
-			sprite planet/rock0
-			distance 269
-			period 13.864
-		object
-			sprite planet/oberon
-			distance 361
-			period 21.5537
-		object
-			sprite planet/desert4
-			distance 488
-			period 33.8759
-	object
-		sprite planet/gas16
-		distance 3462.87
-		period 3949.57
-		object
-			sprite planet/miranda
-			distance 218
-			period 16.9427
-		object
-			sprite planet/lava0
-			distance 340
-			period 33.0001
-		object
-			sprite planet/europa
-			distance 469
-			period 53.4634
-	object Northgate
-		sprite planet/wormhole-searchers
-		distance 6000
-		period 8000
-	object Eastgate
-		sprite planet/wormhole-searchers
-		distance 6000
-		period 8000
-		offset 90
-	object Southgate
-		sprite planet/wormhole-searchers
-		distance 6000
-		period 8000
-		offset 180
-	object Westgate
-		sprite planet/wormhole-searchers
-		distance 6000
-		period 8000
-		offset 270
-
 system Phurad
 	pos -494 -153
 	government Republic
@@ -26515,63 +25851,6 @@ system "Pug Iyik"
 			distance 365
 			period 36.706
 			arrival 625
-
-system Quark
-	pos -1038.53 -254.175
-	government Searchers
-	habitable 1715
-	belt 1115
-	link Boson
-	link Hadron
-	link Lepton
-	asteroids "large metal" 1 2.3736
-	trade Clothing 240
-	trade Electronics 710
-	trade Equipment 330
-	trade Food 338
-	trade "Heavy Metals" 720
-	trade Industrial 620
-	trade "Luxury Goods" 1250
-	trade Medical 770
-	trade Metal 390
-	trade Plastic 465
-	fleet "Small Searchers" 800
-	fleet "Medium Searchers" 1600
-	fleet "Large Searchers" 3000
-	object
-		sprite star/f5
-		period 10
-	object
-		sprite planet/ice0
-		distance 192.56
-		period 25.8093
-	object
-		sprite planet/rock3
-		distance 498.81
-		period 107.605
-	object
-		sprite planet/lava5
-		distance 888.97
-		period 256.011
-	object
-		sprite planet/water1
-		distance 1443.22
-		period 529.574
-	object Apto
-		sprite planet/cloud3
-		distance 1743.47
-		period 703.153
-		offset 37.3797
-	object
-		sprite planet/jupiter
-		distance 3974.16
-		period 2419.89
-		offset 9.52585
-	object Westgate
-		sprite planet/wormhole-searchers
-		distance 6025.79
-		period 4518.03
-		offset 322.544
 
 system Quaru
 	pos -1080.63 448.214
@@ -35094,12 +34373,6 @@ planet Ada
 		threshold 8000
 		fleet "Large Republic" 16
 
-planet Aes
-	attributes "searchers mining"
-	landscape land/badlands4
-	description `Aes is a very strange world, completely devoid of life. Although there is an atmosphere, it is completely unbreatheable, and the dry heat is oppressive. This planet should not be habitatable, yet the Searchers have managed to live here, building giant domes on the surface and sealed caves underneath. Perhaps the reason this planet has been settled is that it is full of useful ores: the entire planet amounts to one big mining operation for iron, nickel, and gold.`
-	spaceport `The spaceport here is what looks to your eyes a lot like pictures you've seen of bases on Mars prior to its terraforming: undeniably mechanical, designed to withstand hostile climates, and very, very old. The landing pads are basically giant airlocks: you land on a ring that closes the dome, and then the entire chamber is pumped full of breathable air. When a ship takes off, it first must go through the several-minute long process of pumping the air back out again.`
-
 planet Ahr
 	attributes arach factory folklore shipping tourism urban
 	landscape land/forest4
@@ -35209,12 +34482,6 @@ planet Antipode
 		threshold 2500
 		fleet "Small Syndicate" 7
 
-planet Apto
-	attributes "searchers manufacturing urban shipping"
-	landscape land/city6
-	description `Apto is a world of dusty hills and giant cities. It is here that most of the Searchers' equipment is manufactured, and most of the planet is covered in a perputual smog due to the poor pollution controls in place here. Despite this, it is a fairly wealthy world, with a lot of its profits coming from the shipment of goods between it and the Searcher capital, Domum. The residents are generally acceptably healthy, the cities are well-maintained, and the government keeps everything moving smoothly.`
-	spaceport `The spaceport here is surprisingly small for the amount of traffic it receives. Instead of being a sprawling mass like many spaceports, it is instead an intricate piece of abstract art: almost completed automated, well-maintained, and only a couple of decades old. There are very few buildings here: just an administrative complex designed to deal with injuries, annoyed pilots, and air traffic control. The automation begins to make sense as you wander around: this is a planet of engineering and manufacturing, and it seems reasonable that some of it has spilled over into the spaceport.`
-
 planet Arabia
 	attributes "dirt belt" oil
 	landscape land/nasa0
@@ -35272,12 +34539,6 @@ planet "Ashy Reach"
 	outfitter "Coalition Basics"
 	"required reputation" 15
 	security 0.1
-
-planet Aurum
-	attributes "searchers urban rich"
-	landscape land/city18-iridium
-	description `Aurum is a prosperous planet, thriving on the sale of luxury goods to the Searcher capital. It is also packed with Searchers seeking easy money, but that money tends to be in the hands of a few high-caste individuals who are unlikely to want to part with any of it. Most Searchers who come here looking for employment end up polishing gems, working at producing expensive textiles or equipment, or leaving soon afterwards on one of the many ships that come here.`
-	spaceport `The spaceport on Aurum is undeniably luxurious, with stylish gold trim, polished metal walls, and fountains of what look to be mercury but are probably actually water. Nonetheless, you stay away from the fountains, feeling a little out of place among all the pomposity of the spaceport. A team of low-caste Searchers scrub at the floor under your ship, polishing it back up to perfection, and another group works at chiseling away at the gold on the walls to create complex art.`
 
 planet Avalon
 	landscape land/sea17-harro
@@ -35529,12 +34790,6 @@ planet Calda
 		threshold 5500
 		fleet "Large Republic" 13
 
-planet Calidus
-	attributes "searchers urban forest tourism"
-	landscape land/forest4
-	description `Calidus is a pleasant green planet, perhaps a bit warm, but otherwise very comfortable. One whole half of its surface has been declared a nature preserve. The other side is home to around twelve billion Searchers. Unlike the home world of the Searchers, Calidus has virtually no dangerous species, and many middle and upper class Searchers take vacations into the nature preserve here to admire the beauty of the well-organized natural world.`
-	spaceport `The spaceport is located on the equator. To the north, the towers of a great metropolis rise far into the sky. To the south is jungle, filled with the sounds of some very strange animals. You watch as a large four-limbed beast prowls around your ship at a careful distance and retreats back into the jungle. The overall effect is quite overpowering.`
-
 planet Canyon
 	attributes core farming frontier
 	landscape land/canyon1
@@ -35650,12 +34905,6 @@ planet "Chosen Nexus"
 	shipyard Saryd
 	outfitter "Coalition Advanced"
 	security 0.6
-
-planet Cibus
-	attributes "searchers urban farming"
-	landscape land/city14-sfiera
-	description `Nourish is the farm world of the Searchers. Its towers are filled with all sorts of modern farming equipment, and most of its seven billion inhabitants live solely to feed the rest of the Searcher empire. Although there are occasional parks, most of the land area of Nourish is filled with farmland and towers. Nourish is one of the few planets with a growing population in Searcher space. Even then, many young Searchers leave the planet for the stars in search of something better.`
-	spaceport `The spaceport here covers the entirety of a large island, and is just as filled with towers as the rest of the planet. How you managed to land your ship in one piece is something you have trouble understanding, and you wonder how it is that fleets of the largest Searcher capital ships regularly take off and land here. Even as you watch, one of the smaller Searcher freighters glides noiselessly through the maze of buildings to land beside you.`
 
 planet Clark
 	attributes "dirt belt" factory forest
@@ -35909,13 +35158,6 @@ planet "Diligent Hand"
 	description `On this factory world, robotic workers operate the factories, repair themselves, and keep the solar power stations free of sand with very little direction or assistance from their Saryd creators. Each factory complex has its own landing pads for the freighters that drop off raw materials and receive the processed goods.`
 	"required reputation" 15
 
-planet Domum
-	attributes searchers
-	landscape land/fog10
-	description `Domum is a jungle world, the home planet of all the Searchers. From a height, it looks like a tropical paradise, but the surface is infested by swarms of thousands of herbivorous insects, which regularly chew up large swathes of jungle. These insects would be only a minor nuissance, but in such large quantities, the toxins they use to break down their food poison the jungle for years. These swarms occassionally run across the villages of the Searchers, who deal with them by digging trenches and putting down large quantities of insecticide around their villages.`
-	description `	There is no center of government on Domum: each village is ruled by an Erus-caste Searcher who meets with the other members of the ruling caste using video conferencing to decide important matters of state. Each Erus-caste Searcher has near-total control over their village.`
-	spaceport `There are few large cities on Domum, even though the Seakers seem to have overpopulated all of their other planets. There is no main spaceport here: each village has its own, and none of them have all that great a capacity. Visting freighters tend to stop at each village individually, the villagers having placed orders for items they require ahead of time in most cases. The spaceport here is similar to all the others on this planet: positioned in the center of a fairly large village, and consisting of a solid chunk of rock with rings etched into it to denote landing spots.`
-
 planet "Double Haze"
 	attributes factory farming kimek urban
 	landscape land/fields2
@@ -35989,15 +35231,6 @@ planet Earth
 	tribute 10000
 		threshold 20000
 		fleet "Large Republic" 50
-
-planet Eastgate
-	wormhole Eastgate
-
-wormhole Eastgate
-	mappable
-	color .4 1 .0
-	link Photon Meson
-	link Meson Photon
 
 planet Eavine
 	attributes ka'het uninhabited
@@ -36271,12 +35504,6 @@ planet Follower
 		threshold 4500
 		fleet "Small Republic" 86
 
-planet Fornax
-	attributes "searchers manufacturing moon"
-	landscape land/loc0
-	description `Fornax is the second moon of a large gas giant. Although this would not normally be all that impressive, this moon has been completely enclosed in a metal sheath, which allows the moon to avoid the temperature fluctuations that would normally be common on such a world. Fornax is also an enormous industrial center, filled with millions upon millions of Searchers whose lives are dedicated to the production of machinery.`
-	spaceport `The spaceport is built on top of the metal shell. Upon leaving your ship, you enter an enclosed walkway that enables you to travel into the heart of the metal moon without being exposed to vacuum. The spaceport is not very busy: there are only a couple of Searcher ships visible right now despite the fact that the spaceport appears to have been designed for hundreds. Perhaps this world is slowly becoming less and less important: its population is certainly decreasing.`
-
 planet Forpelog
 	attributes "human quarg" moon quarg
 	landscape land/canyon03
@@ -36340,12 +35567,6 @@ planet Frostmark
 	description `There are several large Hai cities near the equator on Frostmark, but much of the planet's surface is cold and uninhabited except by herds of extremely large, six-legged herbivores, and other equally large and frightening animals that prey on them.`
 	spaceport `Every Hai city has an appearance of great age and permanence, but this one, even more so. In Hai cities, transport vehicles carry freight and passengers along underground passages or elevated railways, while the pathways at ground level are reserved for foot traffic. Here, millennia of foot traffic have rounded off the corners of every metal staircase, and polished the railings as smooth as glass. The Hai locals do not seem to have trouble keeping their footing, but you wish your shoes gave you more traction.`
 	security 0.2
-
-planet Fulmen
-	attributes "searchers manufacturing volcanic forest"
-	landscape land/forest5
-	description `Fulmen is what happens when an entire planet is converted to manufacturing electrical products. This mountainous world is full of electrical fabrication plants and hidden cities. It is powered by geothermal power from its many volcanoes, and is heavily forested. Despite the level of industrialization here, the planet is fairly clean, with low levels of pollution and environmental damage.`
-	spaceport `The spaceport here is hidden deep in one of the mountain ranges, accessible only by flying through one of many narrow gorges. You can't help but feel that the spaceport is intentionally hard to access: anyone trying to get in or out has to face an entire canyon's worth  of hidden defenses. Because of the remote location, the spaceport is quite small, but it is very sophisticated and quite aesthetically pleasing with its rugged, natural design.`
 
 planet Furnace
 	attributes core military moon
@@ -37028,12 +36249,6 @@ planet Lichen
 		threshold 3000
 		fleet "Large Militia" 8
 
-planet Ligo
-	attributes "searcher manufacturing urban shipping moon"
-	landscape land/city9
-	description `Ligo is the largest importer of biological products in all of Searcher space, accepting just about any sort of waste product for conversion into plastics. These plastics are then exported for use in thousands of fields, from medicine to heavy industry. This entire planet exists just to be a giant manufacturing plant for the Searchers, and suffers from enormous amounts of environmental damage because of it.`
-	spaceport `The spaceport here is unusually large, built to handle the influx of biomass that the planet receives. One entire wing is dedicated solely to hazardous materials of all sorts, and another works at packing plastics into large containers. There are many Searchers here, as there is less automation to be found in this spaceport than in others in Searcher space, and you get an eerie feeling, as if the Searchers here were machines, instead of people doing the tasks of machines. No one speaks, and the dominant sound as the patter of thousands of swftly moving feet.`
-
 planet Limejog
 	attributes hai station uninhabited
 	landscape land/station45
@@ -37669,15 +36884,6 @@ planet Norn
 		threshold 3000
 		fleet "Small Deep Security" 12
 
-planet Northgate
-	wormhole Northgate
-
-wormhole Northgate
-	mappable
-	color .4 1 .0
-	link Photon Electron
-	link Electron Photon
-
 planet Oasis
 	attributes farming rim textiles
 	landscape land/dune4
@@ -38084,12 +37290,6 @@ planet "Sabira Eseskrai"
 	description `Long ago, this planet was home to several Korath oil mining settlements, but now all that remains visible are the tops of a few dozen of the tallest buildings. Everything else has been buried by sandstorms.`
 	description `	Due to a recent shift in climate the deserts have begun shrinking once more, with local vegetation growing to cover more and more land each year, but the Korath are no longer here to benefit from the change.`
 
-planet Sacoma
-	attributes "searchers manufacturing mining"
-	landscape land/canyon12
-	description `Sacoma is a planet dedicated to the production and refining of heavy metals. It is very remote, and is sparsely populated due to high prices for most things and a lack of jobs, the operation being almost completely automated. Sacoma was only settled by the Searchers about five hundred years ago, making it a young colony world compared with all their other planets.`
-	spaceport `The spaceport here appears to be constructed out of concrete. For an almost deserted world, the spaceport is a hive of activity, with several ships landing and taking off at the same time. It is certainly not designed for the traffic it is getting, although from the looks of things there is another spaceport being constructed nearby that should take some of the strain away from this one. Most of the Searchers here appear to be with one or another of the vessels: there are very few locals around, most of them having better things to do than stand in a freezing spaceport.`
-
 planet "Safaresk Enlai"
 	attributes korath station
 	landscape land/station17
@@ -38097,12 +37297,6 @@ planet "Safaresk Enlai"
 	spaceport `This spaceport is relatively unpopulated for a station of this size, and the few Korath who are here are wandering about with the sort of deeply absorbed attitude you would expect from a scientist or an academic.`
 	spaceport `	In one corner of the spaceport is a cage housing several large rodents and some small shrubs, lit by a warm sun-lamp. The rodents are quite acrobatic.`
 	security 0
-
-planet Salus
-	attributes "searchers medical rich military"
-	landscape land/clouds_02
-	description `Salus is a very cloudy world, notable for its heat and the red tint that the cloud cover gives its sun. The largest producer of medical products of all Searcher planets, it is very rich, and boasts the only major military base in all of Searcher space. Your ship is scanned upon landing, and you are carefully watched to make sure you don't attempt to do anything illegal.`
-	spaceport `The spaceport on Salus is very large, dominated by the military base. There is a lot of traffic here, but it has managed to avoid the worst of the congestion by the use of an extraordinarily complicated transportation network. The landing pads are generously sized, and there are enough if them to land even the very largest of fleets. As soon as you landed, you were provided with a guide instructing you in the operation of the transportation network.`
 
 planet Sandsnap
 	attributes hai station uninhabited
@@ -38495,15 +37689,6 @@ planet "Sopi Lefarkata"
 	bribe 0
 	security 0
 
-planet Southgate
-	wormhole Southgate
-
-wormhole Southgate
-	mappable
-	color .4 1 .0
-	link Photon Baryon
-	link Baryon Photon
-
 planet "Spera Anatrusk"
 	attributes korath
 	landscape land/badlands11
@@ -38659,12 +37844,6 @@ planet "Tefkar Ret"
 	attributes korath station
 	landscape land/station12
 	description `This station is run-down and completely abandoned, emptied of atmosphere so that air pressure will not put ongoing stress on the station's structure. Each section is sealed off from the others by heavy blast doors, leaving most of the station inaccessible.`
-
-planet Tela
-	attributes "searchers textiles"
-	landscape land/mountain9
-	description `Tela is the largest cloth producer of Searcher space, despite its size. It is covered in massive textile mills, and under its surface are hidden thousands upon thousands of young Searchers who labour daily producing cloth. Tela's population never sees most of the cloth it produces again: it is shipped elsewhere, to where it can sell for a good deal more money. Because of this, Tela is a very poor world, whose inhabitants have to constantly struggle to survive.`
-	spaceport `The spaceport on Tela is located high in the mountains. From it you can see hundreds of caves in the sides of mountains, each housing hundreds of destitute Searchers. Although the poverty here comes as a bit of a surprise, what is even more surprising is that everyone seems to take it for granted. Those who cannot find work slowly die off, replaced by an influx of new immigrants seeking their fortune away from home.`
 
 planet "Third Umber"
 	attributes factory kimek research
@@ -39142,15 +38321,6 @@ planet "Weir of Glubatub"
 	description `	A few of the larger islands have been settled by the Arachi, and most of the locals work in the fishing industry. Some of the fishing boats are so large that a small starship can land on their decks.`
 	spaceport `The spaceport is on an island near one of the planet's poles, where the temperature is cool and sea ice can be gathered to stock the warehouses where the fish are kept cold until they can be shipped offworld. Even with most of the fish being kept on ice, the smell is still overpowering, except at the rare moments when the wind picks up and it is replaced by the smell of fresh salt air.`
 	"required reputation" 15
-
-planet Westgate
-	wormhole Westgate
-
-wormhole Westgate
-	mappable
-	color .4 1 .0
-	link Photon Quark
-	link Quark Photon
 
 planet Windblain
 	attributes deep oil textiles
