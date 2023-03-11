@@ -22,16 +22,19 @@ this program. If not, see <https://www.gnu.org/licenses/>.
 #include "text/FontSet.h"
 #include "text/Format.h"
 #include "GameData.h"
+#include "GameLoadingPanel.h"
 #include "Information.h"
 #include "Interface.h"
 #include "LoadPanel.h"
 #include "Logger.h"
 #include "MainPanel.h"
+#include "Phrase.h"
 #include "Planet.h"
 #include "PlayerInfo.h"
 #include "Point.h"
 #include "PreferencesPanel.h"
 #include "Rectangle.h"
+#include "Screen.h"
 #include "Ship.h"
 #include "Sprite.h"
 #include "StarField.h"
@@ -79,6 +82,8 @@ MenuPanel::MenuPanel(PlayerInfo &player, UI &gamePanels)
 
 	if(player.GetPlanet())
 		Audio::PlayMusic(player.GetPlanet()->MusicName());
+	
+	GameLoadingPanel::UpdateHint();
 }
 
 
@@ -100,6 +105,7 @@ void MenuPanel::Draw()
 	glClear(GL_COLOR_BUFFER_BIT);
 	GameData::Background().Draw(Point(), Point());
 
+	// Check if a player is loaded.
 	Information info;
 	if(player.IsLoaded() && !player.IsDead())
 	{
@@ -131,6 +137,10 @@ void MenuPanel::Draw()
 		info.SetString("pilot", "No Pilot Loaded");
 	}
 
+	// Load the loading hint.
+	info.SetString("hint", GameLoadingPanel::GetHint());
+
+	// Draw everything.
 	GameData::Interfaces().Get("menu background")->Draw(info, this);
 	mainMenuUi->Draw(info, this);
 	GameData::Interfaces().Get("menu player info")->Draw(info, this);

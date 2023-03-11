@@ -17,17 +17,25 @@ this program. If not, see <https://www.gnu.org/licenses/>.
 
 #include "Angle.h"
 #include "Audio.h"
+#include "Color.h"
 #include "Conversation.h"
 #include "ConversationPanel.h"
+#include "text/DisplayText.h"
+#include "text/Font.h"
+#include "text/FontSet.h"
+#include "text/Format.h"
 #include "GameData.h"
 #include "Information.h"
 #include "Interface.h"
 #include "MaskManager.h"
 #include "MenuAnimationPanel.h"
 #include "MenuPanel.h"
+#include "Phrase.h"
 #include "PlayerInfo.h"
 #include "Point.h"
 #include "PointerShader.h"
+#include "Random.h"
+#include "Screen.h"
 #include "Ship.h"
 #include "SpriteSet.h"
 #include "StarField.h"
@@ -35,6 +43,10 @@ this program. If not, see <https://www.gnu.org/licenses/>.
 #include "UI.h"
 
 #include "opengl.h"
+
+namespace {
+	std::string hint;
+}
 
 
 
@@ -51,6 +63,14 @@ GameLoadingPanel::GameLoadingPanel(PlayerInfo &player, const Conversation &conve
 void GameLoadingPanel::Step()
 {
 	progress = static_cast<int>(GameData::GetProgress() * MAX_TICKS);
+
+	// If no loading hint has been selected yet, select one.
+	// Hints are only selected after more than 12 ticks are displayed so that randomness works properly.
+	if(!hintSelected && progress > 45){
+		hintSelected = true;
+		UpdateHint();
+	}
+	
 
 	// While the game is loading, upload sprites to the GPU.
 	GameData::ProcessSprites();
@@ -108,4 +128,19 @@ void GameLoadingPanel::Draw()
 		a += da;
 	}
 	PointerShader::Unbind();
+
+	// Draw the loading hint.
+	Information info;
+	info.SetString("hint", GetHint());
+	GameData::Interfaces().Get("menu background")->Draw(info, this);
+}
+
+std::string GameLoadingPanel::GetHint()
+{
+	return hint;
+}
+
+void GameLoadingPanel::UpdateHint()
+{
+	hint = GameData::Phrases().Get("loading hints")->Get();
 }

@@ -25,8 +25,6 @@ class Conversation;
 class PlayerInfo;
 class UI;
 
-
-
 // Class representing the loading menu, which is shown when loading resources
 // (like game data and save files).
 class GameLoadingPanel final : public Panel {
@@ -35,6 +33,9 @@ public:
 
 	void Step() final;
 	void Draw() final;
+
+	static std::string GetHint();
+	static void UpdateHint();
 
 
 private:
@@ -48,6 +49,7 @@ private:
 	const double ANGLE_OFFSET;
 	// The current number of ticks to be displayed.
 	int progress = 0;
+	bool hintSelected;
 };
 
 
