@@ -1753,6 +1753,41 @@ License: CC-BY-SA-4.0
 Comment: Image data: NASA/JPL-Caltech/SwRI/MSSS and Image processing by Brian Swift.
 
 Files:
+ images/outfit/twin?blaster*
+ images/outfit/twin?mod?blaster*
+ images/outfit/repeater*
+ images/outfit/repeater?turret*
+Copyright: Daeridanii (https://github.com/Daeridanii1)
+License: CC-BY-SA-4.0
+Comment: Derived from works by Becca Tommaso and Michael Zahniser (under the same license).
+
+Files:
+ images/land/city19*
+ images/land/city20*
+ images/land/city21*
+ images/land/city22*
+ images/land/city23*
+Copyright: Various
+License: CC0
+Comment: Taken from unsplash.com and cropped.
+
+Files:
+ images/ui/red?alert*
+Copyright: Zitchas (zitchas.jma@gmail.com)
+License: CC-BY-SA-4.0
+
+Files:
+ images/_menu/haze-brown*
+Copyright: RisingLeaf (https://github.com/RisingLeaf)
+License: CC-BY-SA-4.0
+Comment: Derived from _menu/haze-133 (no copyright given).
+
+Files:
+ images/star/proto-planetary-disk*
+Copyright: RisingLeaf (https://github.com/RisingLeaf)
+License: CC-BY-SA-4.0
+
+Files:
  images/ship/searcher*
 Copyright: mOctave (https://github.com/mOctave)
 License: CC-BY-SA-4.0
