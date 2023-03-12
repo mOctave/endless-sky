@@ -273,6 +273,47 @@ system Fermion
 			distance 307
 			period 14.1284
 
+system Gluon
+	pos 129.125 -866.792
+	government Uninhabited
+	habitable 700
+	belt 1539
+	asteroids "small rock" 1 2.952
+	asteroids "medium rock" 2 3.348
+	asteroids "large rock" 18 3.276
+	asteroids "small metal" 12 3.564
+	asteroids "medium metal" 31 2.556
+	asteroids "large metal" 14 3.564
+	minables iron 10 4.786
+	minables copper 18 4.82
+	object
+		sprite star/g3
+		period 10
+	object
+		sprite planet/rock13-b
+		distance 306
+		period 80.927
+	object
+		sprite planet/rhea
+		distance 579
+		period 210.634
+	object
+		sprite planet/rock19-b
+		distance 1086
+		period 541.073
+	object
+		sprite planet/gas8
+		distance 1632
+		period 996.761
+	object
+		sprite planet/gas5-b
+		distance 2852
+		period 2302.689
+	object
+		sprite planet/browndwarf-l
+		distance 13179
+		period 22873.607
+
 system Graviton
 	pos -971.979 -55.1117
 	government Searchers
@@ -400,6 +441,56 @@ system Hadron
 		distance 3201.42
 		period 1749.61
 		offset 43.6344
+
+system Kaon
+	pos 485.125 -830.792
+	government Uninhabited
+	habitable 553.76
+	belt 1493 5
+	belt 2053 5
+	belt 2855 3
+	link Pion
+	link Positron
+	link Proton
+	asteroids "small rock" 28 1.31
+	asteroids "medium rock" 29 1.292
+	asteroids "large rock" 35 1.784
+	asteroids "small metal" 22 1.602
+	asteroids "medium metal" 63 1.183
+	asteroids "large metal" 48 1.056
+	object
+		sprite star/f-dwarf
+		distance 109.525
+		period 58.606
+		offset 180
+	object
+		sprite star/k5
+		distance 9.475
+		period 58.606
+	object
+		sprite planet/io
+		distance 233
+		period 60.455
+	object
+		sprite planet/gas8-hot
+		distance 594
+		period 246.081
+	object
+		sprite planet/gas15-b
+		distance 1335
+		period 829.127
+	object
+		sprite planet/uranus-b
+		distance 2292
+		period 1865.182
+	object
+		sprite planet/gas14-b
+		distance 3690
+		period 3810.121
+		object
+			sprite planet/tschyss
+			distance 229
+			period 276.076
 
 system Lepton
 	pos -1078.14 -286.218
@@ -583,6 +674,133 @@ system Muon
 			distance 312
 			period 29.0088
 
+system Neutrino
+	pos 426.125 -974.792
+	government Uninhabited
+	habitable 3000
+	belt 1449 10
+	belt 2177 3
+	link Neutron
+	link Pion
+	asteroids "large metal" 1 3.192
+	object
+		sprite star/k-giant
+		period 10
+	object
+		sprite planet/ocean2-b
+		distance 614
+		period 111.11
+	object
+		sprite planet/gas5
+		distance 1598
+		period 466.514
+		object
+			sprite planet/miranda
+			distance 253
+			period 190.367
+		object
+			sprite planet/rock17
+			distance 359
+			period 418.925
+	object
+		sprite planet/jupiter-b
+		distance 2609
+		period 973.219
+		object
+			sprite planet/dust0
+			distance 256
+			period 252.263
+		object
+			sprite "planet/yniu eiu"
+			distance 355
+			period nan
+	object
+		sprite planet/browndwarf-y
+		distance 4971
+		period 2559.558
+	object
+		sprite planet/gas8
+		distance 6291
+		period 3644.004
+		object
+			sprite planet/tethys-b
+			distance 335
+			period 377.626
+		object
+			sprite planet/ice0-b
+			distance 486
+			period 405
+	object
+		sprite planet/gas0-b
+		distance 9329
+		period 6580.396
+
+system Neutron
+	pos 496.125 -939.792
+	government Uninhabited
+	habitable 750
+	belt 1763 10
+	link Neutrino
+	link Pion
+	asteroids "large rock" 1 2.38
+	asteroids "medium metal" 6 2.17
+	asteroids "large metal" 1 2.975
+	object
+		sprite star/a-dwarf
+		period 10
+	object
+		sprite planet/browndwarf-l
+		distance 697
+		period 268.769
+		object
+			sprite planet/oberon-b
+			distance 288
+			period 301.011
+		object
+			sprite planet/rock3
+			distance 381
+			period 281.118
+	object
+		sprite planet/gas5-b
+		distance 1843
+		period 1155.626
+	object
+		sprite planet/gas0-b
+		distance 3529
+		period 3062.012
+		object
+			sprite planet/rock0
+			distance 300
+			period 196.419
+		object
+			sprite planet/dust7-b
+			distance 442
+			period 351.264
+	object
+		sprite planet/gas11-b
+		distance 5369
+		period 5746.051
+		object
+			sprite planet/miranda
+			distance 289
+			period 232.412
+	object
+		sprite planet/gas9
+		distance 8467
+		period 11379.514
+		object
+			sprite planet/dust7
+			distance 282
+			period 179.009
+	object
+		sprite planet/gas6-hot
+		distance 17730
+		period 34482.001
+		object
+			sprite planet/dust5
+			distance 256
+			period 107.196
+
 system Photon
 	pos -934.527 -206.175
 	government Searchers
@@ -675,6 +893,136 @@ system Photon
 		period 8000
 		offset 270
 
+system Pion
+	pos 457.125 -895.792
+	government Uninhabited
+	habitable 22300
+	belt 1187 5
+	link Kaon
+	link Neutrino
+	link Neutron
+	asteroids "small rock" 1 1.605
+	asteroids "medium rock" 52 2.312
+	asteroids "large rock" 19 2.421
+	asteroids "small metal" 1 1.85
+	asteroids "medium metal" 4 1.605
+	asteroids "large metal" 1 2.094
+	minables gold 4 3.296
+	minables uranium 7 3.052
+	minables iron 8 3.564
+	object
+		sprite star/o-giant
+		period 10
+	object
+		sprite planet/rock2-b
+		distance 564
+		period 35.878
+	object
+		sprite planet/ocean1-b
+		distance 1265
+		period 120.516
+	object
+		sprite planet/gas14
+		distance 2523
+		period 339.456
+	object
+		sprite planet/gas2-b
+		distance 4497
+		period 807.778
+	object
+		sprite planet/browndwarf-t
+		distance 5078
+		period 969.274
+
+system Positron
+	pos 453.083 -786.042
+	government Quarg
+	attributes ringworld
+	habitable 13720
+	belt 1146 8
+	link Kaon
+	asteroids "small rock" 10 1.088
+	asteroids "medium rock" 18 1.536
+	asteroids "large rock" 1 0.96
+	asteroids "small metal" 214 1.536
+	asteroids "medium metal" 30 1.008
+	asteroids "large metal" 48 1.536
+	minables silver 9 2.686
+	minables iron 13 2.589
+	object
+		sprite star/o0
+		period 10
+	object
+		sprite planet/forest3
+		distance 452
+		period 32.816
+	object
+		sprite planet/gas7-b
+		distance 1174
+		period 137.368
+	object
+		sprite planet/gas4-b
+		distance 1837
+		period 268.873
+	object
+		sprite planet/dust4
+		distance 3115
+		period 593.704
+	object
+		sprite planet/gas9-b
+		distance 4533
+		period 1042.225
+	object
+		sprite planet/saturn
+		distance 9901
+		period 3364.353
+
+system Proton
+	pos 565.125 -813.792
+	government Uninhabited
+	habitable 7000
+	belt 1942 5
+	link Kaon
+	asteroids "medium rock" 25 3.345
+	asteroids "large rock" 3 3.686
+	asteroids "small metal" 12 5.5
+	asteroids "medium metal" 72 3.005
+	asteroids "large metal" 17 4.819
+	minables silver 1 5.657
+	minables titanium 2 6.33
+	minables aluminum 25 3.789
+	object
+		sprite star/b0
+		period 10
+	object
+		sprite planet/rock1
+		distance 420
+		period 41.151
+	object
+		sprite planet/ocean1
+		distance 995
+		period 150.053
+		object
+			sprite planet/rhea-b
+			distance 193
+			period 83.39
+	object
+		sprite planet/gas0-b
+		distance 1998
+		period 426.977
+		object
+			sprite planet/gas7-r
+			distance 239
+			period nan
+	object
+		sprite planet/gas8-b
+		distance 3156
+		period 847.65
+		object
+			sprite planet/luna
+			distance 358
+			period 256.05
+
 system Quark
 	pos -1038.53 -254.175
 	government Searchers
@@ -731,3 +1079,54 @@ system Quark
 		distance 6025.79
 		period 4518.03
 		offset 322.544
+
+system Tau
+	pos 246.125 -664.792
+	government Uninhabited
+	habitable 13754.955
+	belt 1927 4
+	belt 2390 6
+	asteroids "small rock" 78 2.89
+	asteroids "medium rock" 113 3.995
+	asteroids "large rock" 106 2.635
+	asteroids "medium metal" 47 3.103
+	asteroids "large metal" 17 3.272
+	minables lead 18 3.309
+	minables tungsten 45 4.97
+	object
+		sprite star/o0
+		distance 131
+		period 74.968
+	object
+		sprite star/k0-old
+		distance 131
+		period 74.968
+		offset 180
+	object
+		sprite planet/gas8-b
+		distance 663
+		period 58.224
+	object
+		sprite planet/rock15-b
+		distance 1154
+		period 133.702
+	object
+		sprite planet/browndwarf-l
+		distance 1679
+		period 234.642
+	object
+		sprite planet/gas6-b
+		distance 3248
+		period 631.327
+		object
+			sprite planet/ice8-b
+			distance 402
+			period 304.677
+		object
+			sprite planet/rock14
+			distance 555
+			period 342.182
+		object
+			sprite "planet/yniu ena"
+			distance 662
+			period 380
