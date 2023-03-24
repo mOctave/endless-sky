@@ -12,7 +12,7 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 system Baryon
-	pos -904.527 -89.1754
+	pos 314.973 -752.925
 	government Searchers
 	habitable 135
 	belt 1332
@@ -82,7 +82,7 @@ system Baryon
 		offset 28.2873
 
 system Boson
-	pos -953.527 -327.175
+	pos 265.973 -990.925
 	government Searchers
 	habitable 1080
 	belt 1650
@@ -143,7 +143,7 @@ system Boson
 			period 11.9127
 
 system Electron
-	pos -882.118 -327.247
+	pos 337.382 -990.997
 	government Searchers
 	habitable 233.28
 	belt 1158
@@ -203,7 +203,7 @@ system Electron
 		period 8000
 
 system Fermion
-	pos -892.342 -24.3184
+	pos 327.158 -688.068
 	government Searchers
 	habitable 659.2
 	belt 1300
@@ -315,7 +315,7 @@ system Gluon
 		period 22873.607
 
 system Graviton
-	pos -971.979 -55.1117
+	pos 247.521 -718.862
 	government Searchers
 	habitable 621.68
 	belt 1271
@@ -385,7 +385,7 @@ system Graviton
 			period 18.0026
 
 system Hadron
-	pos -1017.53 -116.175
+	pos 201.97 -779.925
 	government Searchers
 	habitable 1715
 	belt 1076
@@ -493,7 +493,7 @@ system Kaon
 			period 276.076
 
 system Lepton
-	pos -1078.14 -286.218
+	pos 141.36 -949.968
 	government Searchers
 	habitable 135
 	belt 1178
@@ -556,7 +556,7 @@ system Lepton
 		period 3517.19
 
 system Meson
-	pos -801.527 -189.175
+	pos 417.973 -852.925
 	government Searchers
 	habitable 1111.68
 	belt 1442
@@ -615,7 +615,7 @@ system Meson
 		period 8000
 
 system Muon
-	pos -817.527 -122.175
+	pos 401.973 -785.925
 	government Searchers
 	habitable 233.28
 	belt 1551
@@ -713,7 +713,7 @@ system Neutrino
 		object
 			sprite "planet/yniu eiu"
 			distance 355
-			period nan
+			period 340
 	object
 		sprite planet/browndwarf-y
 		distance 4971
@@ -802,7 +802,7 @@ system Neutron
 			period 107.196
 
 system Photon
-	pos -934.527 -206.175
+	pos 284.973 -869.925
 	government Searchers
 	habitable 425.92
 	belt 1209
@@ -1013,7 +1013,7 @@ system Proton
 		object
 			sprite planet/gas7-r
 			distance 239
-			period nan
+			period 250
 	object
 		sprite planet/gas8-b
 		distance 3156
@@ -1024,7 +1024,7 @@ system Proton
 			period 256.05
 
 system Quark
-	pos -1038.53 -254.175
+	pos 180.97 -917.925
 	government Searchers
 	habitable 1715
 	belt 1115

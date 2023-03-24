@@ -1218,9 +1218,20 @@ government "Scar's Legion (Killable)"
 government "Searchers"
 	swizzle 17
 	color 0.2 0.7 0.8
-	"player reputation" 1
+	"player reputation" 10
 	"crew attack" 0.6
 	"crew defense" 1.4
+	"attitude toward"
+		"Searcher Rebel" -0.5
+
+government "Searcher Rebel"
+	swizzle 23
+	color 0.7 0.2 0.8
+	"player reputation" 0
+	"crew attack" 0.7
+	"crew defense" 1.5
+	"attitude toward"
+		"Searchers" -0.5
 
 government "Sheragi"
 	swizzle 3
