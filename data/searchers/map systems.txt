@@ -122,7 +122,7 @@ system Boson
 			distance 240
 			period 13.2266
 		object Fornax
-			sprite planet/ice0
+			sprite planet/metal
 			distance 325
 			period 20.8428
 		object
