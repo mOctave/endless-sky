@@ -161,3 +161,46 @@ mission "First Contact: Searchers"
 		payment 200000
 		"reputation: Searchers" += 10
 		"reputation: Republic" += 2
+
+mission "Talk to Quarg about Searchers"
+	landing
+	source
+		attributes "quarg"
+	to offer
+		has "First Contact: Searchers: offered"
+	on offer
+		conversation
+			`Would you like to ask the Quarg about the Searchers?`
+			choice
+				`	(Yes.)`
+				`	(Not right now.)`
+					defer
+			`	It doesn't take long for you to find one of the Quarg who's willing to speak with you. "Greetings, human," says the Quarg. "You seem as if you wish to say something. What is it?" When you tell the Quarg about the Searchers and the ruined Wardragon they found in their space, the Quarg seems saddened. "Ah, yes, the Searchers, who call themselves the '|^\-']. Such a promising species, they once were. Then, the Pug foolish decided to box them into half their proper number of systems and let them stagnate. They said that sooner or later, they would expand beyond those borders. Naturally, the Quarg disagreed. We saw that it was far better to let them grow, but the Pug did not listen. When we sent a Wardragon to keep an eye on the system, it vanished. That is what the Searchers found, before we could remove it."`
+			choice
+				`	"Do you think the Pug destroyed the Wardragon?"`
+				`	"Thank you for taking time to talk to me about this."`
+					decline
+			`	The Quarg does not take long to respond to your question. "Some think one thing, some another. Either way, it very nearly came to open war after the ship was found disabled. It was lucky that we managed to come to an agreement, then. We kept an eye on the outer systems of the '|^\-'], and the Pug had their way, keeping them boxed in. In return, the Pug were more relaxed in their dealings with us in other places. It was a fair trade."`
+			action
+				log "Faction" "Searchers" "It seems like the Searchers, who are properly called the '|^\-'], are a point of contention between the Pug and the Quarg. It turns out that the two species came dangerously close fought a war over them before coming to a more peaceful settlement."
+			choice
+				`	"What other places?"`
+				`	"Thank you for taking time to talk to me about this."`
+					decline
+			`	This seems to be a question that the Quarg is much less enthusiastic about answering. Finally, the Quarg simply says, "That is not knowledge that you should have, nor is it knowledge that you need," and leaves you to ponder by yourself.`
+
+mission "Talk to Pug about Searchers"
+	landing
+	source
+		attributes "pug"
+	to offer
+		has "Talk to Quarg about Searchers: offered"
+	on offer
+		conversation
+			`Would you like to ask the Pug about the Searchers?`
+			choice
+				`	(Yes.)`
+				`	(Not right now.)`
+					defer
+			`	The Pug at first flat-out refuse to know anything about the Searchers, but once you tell them about the wrecked Wardragon, their attitudes change somewhat. "We did not destroy that ship, human," one of them says, "nor did we seek to harm those who called themselves the '|^\-']. We sought to build them up, but the Quarg sought to keep them in their nice little package of space, and so they blamed us when one of their ships was destroyed. What destroyed it, we do not know. Now, human, leave. Your stay here is over." The Pug escort you back to your ship, and shove you into it. It looks like you have no choice but to leave with your questions unanswered.`
+				flee
