@@ -35,7 +35,7 @@ outfit "A300 Tautology Battery"
 	plural "A300 Tautology Batteries"
 	category "Power"
 	"cost" 122900
-	thumbnail "outfit/small searcher battery"
+	thumbnail "outfit/medium searcher battery"
 	"mass" 26
 	"outfit space" -26
 	"energy capacity" 20400
