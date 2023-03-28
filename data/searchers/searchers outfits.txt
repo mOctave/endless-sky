@@ -11,15 +11,35 @@
 # You should have received a copy of the GNU General Public License along with
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
-outfit "Axiom Battery"
-	plural "Axiom Batteries"
+outfit "A100 Axiom Battery"
+	plural "A100 Axiom Batteries"
 	category "Power"
 	"cost" 29000
-	thumbnail "outfit/axiom battery"
-	"mass" 10
-	"outfit space" -10
-	"energy capacity" 6500
-	description "The Axiom Battery is the smallest energy storage unit produced by the Searchers. It is very efficient, but also somewhat expensive."
+	thumbnail "outfit/tiny searcher battery"
+	"mass" 6
+	"outfit space" -6
+	"energy capacity" 3900
+	description "The A100 Axiom Battery is the smallest energy storage unit produced by the Searchers. It is very efficient, but also somewhat expensive."
+
+outfit "A200 Lemma Battery"
+	plural "A200 Lemma Batteries"
+	category "Power"
+	"cost" 76300
+	thumbnail "outfit/small searcher battery"
+	"mass" 16
+	"outfit space" -16
+	"energy capacity" 11400
+	description "The next step up from the smallest of the Searchers' batteries, the A200 Lemma Battery is even more compact than the Axiom Battery, being more than powerful enough to accomodate for any momentary energy needs."
+
+outfit "A300 Tautology Battery"
+	plural "A300 Tautology Batteries"
+	category "Power"
+	"cost" 122900
+	thumbnail "outfit/small searcher battery"
+	"mass" 26
+	"outfit space" -26
+	"energy capacity" 20400
+	description "The next step up from the smallest of the Searchers' batteries, the A200 Lemma Battery is even more compact than the Axiom Battery, being more than powerful enough to accomodate for any momentary energy needs."
 
 outfit "Verum Impactor"
 	"cost" 24000
