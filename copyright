@@ -935,6 +935,7 @@ License: CC-BY-SA-4.0
 Comment: Detailed by Becca Tommaso (tommasobecca03@gmail.com).
 
 Files:
+ images/projectile/sunbeam/*
  images/ship/blackbird*
  images/ship/falcon*
  images/ship/hawk*
@@ -2087,14 +2088,23 @@ Copyright: RisingLeaf (https://github.com/RisingLeaf)
 License: CC-BY-SA-4.0
 
 Files:
+ images/land/hills11*
+Copyright: CyberJudas (cyberjudas@dnmx.org)
  images/ship/searcher*
  images/planet/metal*
+ images/outfit/flechette railgun*
+ images/outfit/tiny searcher shields*
+ images/outfit/small searcher shields*
+ images/outfit/medium searcher shields*
+ images/outfit/large searcher shields*
+ images/outfit/huge searcher shields*
 Copyright: mOctave <moctave31415@gmail.com>
 License: CC-BY-SA-4.0
 
 Files:
  images/planet/wormhole-searchers*
 Copyright: RisingLeaf (https://github.com/RisingLeaf)
+
 License: CC-BY-SA-4.0
 
 License: GPL-3+
