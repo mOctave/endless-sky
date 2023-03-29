@@ -39,7 +39,7 @@ ship "Searcher Pestle"
 		"SSU-1 Obstructive Shields"
 
 		"nGVF-AA Fuel Cell"
-		"Supercapacitor"
+		"A100 Axiom Battery"
 		
 		"X1700 Ion Thruster"
 		"X1200 Ion Steering"
@@ -78,7 +78,7 @@ ship "Searcher Mortar"
 		"SSU-1 Obstructive Shields"
 
 		"nGVF-AA Fuel Cell"
-		"Supercapacitor"
+		"A100 Axiom Battery"
 		
 		"X1700 Ion Thruster"
 		"X1200 Ion Steering"
@@ -121,7 +121,7 @@ ship "Searcher Temple"
 		"SSU-2 Protective Shields"
 
 		"nGVF-CC Fuel Cell"
-		"Supercapacitor"
+		"A200 Lemma Battery"
 		
 		"X3700 Ion Thruster"
 		"X3200 Ion Steering"
@@ -176,7 +176,7 @@ ship "Searcher Chapel"
 		"SSU-3 Effective Shields"
 
 		"nGVF-CC Fuel Cell"
-		"Supercapacitor"
+		"A200 Lemma Battery"
 		
 		"X3700 Ion Thruster"
 		"X3200 Ion Steering"
@@ -241,7 +241,7 @@ ship "Searcher Ziggurat"
 		"SSU-3 Effective Shields"
 
 		"nGVF-CC Fuel Cell"
-		"Supercapacitor"
+		"A200 Lemma Battery"
 		
 		"X3700 Ion Thruster"
 		"X3200 Ion Steering"
@@ -308,7 +308,7 @@ ship "Searcher Cathedral"
 		"SSU-3 Effective Shields"
 
 		"nGVF-CC Fuel Cell"
-		"Supercapacitor"
+		"A200 Lemma Battery"
 		
 		"X3700 Ion Thruster"
 		"X3200 Ion Steering"
@@ -377,7 +377,7 @@ ship "Searcher Pyramid"
 		"SSU-4 Reliable Shields"
 
 		"nGVF-CC Fuel Cell"
-		"Supercapacitor"
+		"A200 Lemma Battery"
 		
 		"X3700 Ion Thruster"
 		"X3200 Ion Steering"
