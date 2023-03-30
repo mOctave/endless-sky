@@ -103,6 +103,17 @@ outfit "SSU-5 Adamantine Shields"
 	"shield energy" 1.1
 	description "The SSU-5 Adamantine Shield Unit is the largest shield module the Searchers have ever built. It is insanely capable, far more advanced than anything humans have produced, despite its large size. Overall, this outfit is very impressive considering that the Searchers have never fought a major war in space where they needed to use shielding, and that it was originally designed to help protect large ships from asteroids."
 
+outfit "Searcher Heat Sink"
+	category "Systems"
+	thumbnail "outfit/searcher heat sink"
+	cost 11000
+	mass 5
+	"outfit space" -3
+	"heat capacity" 10
+	"active cooling" 5
+	"shields" -100
+	description "The Searchers generally build fairly efficient systems, and nowhere is this more obvious than in their single cooling system. This heat sink wicks away heat from your ship, allowing it to cool slightly faster and hold more heat before overheating. It is also fairly easy to attach, just needing to be bolted on to the outside of your ship and have a couple of ducts run through to where they can accomplish something. Unfortunately, mounting things onto the outside of a ship's hull tends to cause problems with its shield matrix."
+
 outfit "Helical Flechette Railgun"
 	category "Hand to Hand"
 	thumbnail "outfit/flechette railgun"
