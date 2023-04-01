@@ -110,9 +110,9 @@ outfit "Searcher Heat Sink"
 	mass 5
 	"outfit space" -3
 	"heat capacity" 10
-	"active cooling" 5
+	"active cooling" 3
 	"shields" -100
-	description "The Searchers generally build fairly efficient systems, and nowhere is this more obvious than in their single cooling system. This heat sink wicks away heat from your ship, allowing it to cool slightly faster and hold more heat before overheating. It is also fairly easy to attach, just needing to be bolted on to the outside of your ship and have a couple of ducts run through to where they can accomplish something. Unfortunately, mounting things onto the outside of a ship's hull tends to cause problems with its shield matrix."
+	description "The Searchers generally build fairly heat-efficient systems, and nowhere is this more obvious than in their single, nearly useless, cooling system. This heat sink wicks away heat from your ship, allowing it to cool slightly faster and hold more heat before overheating. It is also fairly easy to attach, just needing to be bolted on to the outside of your ship and have a couple of ducts run through to where they can accomplish something. Unfortunately, mounting things onto the outside of a ship's hull tends to cause problems with its shield matrix."
 
 outfit "Helical Flechette Railgun"
 	category "Hand to Hand"
