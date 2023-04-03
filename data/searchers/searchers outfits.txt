@@ -114,6 +114,21 @@ outfit "Searcher Heat Sink"
 	"shields" -100
 	description "The Searchers generally build fairly heat-efficient systems, and nowhere is this more obvious than in their single, nearly useless, cooling system. This heat sink wicks away heat from your ship, allowing it to cool slightly faster and hold more heat before overheating. It is also fairly easy to attach, just needing to be bolted on to the outside of your ship and have a couple of ducts run through to where they can accomplish something. Unfortunately, mounting things onto the outside of a ship's hull tends to cause problems with its shield matrix."
 
+outfit "Linguistic Scanner"
+	category "Systems"
+	thumbnail "outfit/linguistic scanner"
+	cost 454000
+	mass 15
+	"outfit space" -15
+	"atmosphere scan" 50
+	"cargo scan power" 25
+	"cargo scan efficiency" 10
+	"outfit scan power" 49
+	"outfit scan efficiency" 30
+	"asteroid scan power" 10
+	"tactical scan power" 50
+	description "As part of how the Searchers' language acquisition process works, they scan and record all audio from nearby ships, using a highly focused laser to pick up on vibrations in the hull of the ship. The scanner they use for that purpose is so powerful that it is also highly effective at performing other types of scans. Unfortunately, it's also quite bulky, so it is not nearly as mass-efficient as a specialized scanner for any specific kind of scan."
+
 outfit "Helical Flechette Railgun"
 	category "Hand to Hand"
 	thumbnail "outfit/flechette railgun"
