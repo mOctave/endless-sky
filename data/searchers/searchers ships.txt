@@ -122,6 +122,7 @@ ship "Searcher Temple"
 
 		"nGVF-CC Fuel Cell"
 		"A200 Lemma Battery"
+		"Linguistic Scanner"
 		
 		"X3700 Ion Thruster"
 		"X3200 Ion Steering"
@@ -177,6 +178,7 @@ ship "Searcher Chapel"
 
 		"nGVF-CC Fuel Cell"
 		"A200 Lemma Battery"
+		"Linguistic Scanner"
 		
 		"X3700 Ion Thruster"
 		"X3200 Ion Steering"
@@ -242,6 +244,7 @@ ship "Searcher Ziggurat"
 
 		"nGVF-CC Fuel Cell"
 		"A200 Lemma Battery"
+		"Linguistic Scanner"
 		
 		"X3700 Ion Thruster"
 		"X3200 Ion Steering"
@@ -309,6 +312,7 @@ ship "Searcher Cathedral"
 
 		"nGVF-CC Fuel Cell"
 		"A200 Lemma Battery"
+		"Linguistic Scanner"
 		
 		"X3700 Ion Thruster"
 		"X3200 Ion Steering"
@@ -378,6 +382,7 @@ ship "Searcher Pyramid"
 
 		"nGVF-CC Fuel Cell"
 		"A200 Lemma Battery"
+		"Linguistic Scanner"
 		
 		"X3700 Ion Thruster"
 		"X3200 Ion Steering"
