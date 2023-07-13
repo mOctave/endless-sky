@@ -49,6 +49,7 @@ government <name>
 		...
 	atrocities
 		<outfit>
+		...
 ```
 
 The various parts of a government definition are described below.
@@ -202,9 +203,17 @@ fine <percentage#>
 ```
 The fine token controls the "leniency" of the government with respect to the fined amount. For example, `fine 0.1` indicates that this government would only fine a player 10,000 credits if the total fine value is 100,000 credits.
 
-#### Illegal and Atrocities
-Defines specific items that are considered illegal and considered atrocities by this government. Illegal items have a parameter that lists the amount of fine the player would receive.
-Illegal and Atrocities can be modified through evens as well.
+#### Illegals and Atrocities
+```html
+illegals
+	<outfit> <fine>
+	...
+attrocities
+	<outfit>
+```
+Defines specific outfits that are considered illegal and considered atrocities by this government. Illegal outfits have a parameter that lists the fine the player receives for having them.
+Outfits labelled atrocities count as such and result in the player being given a death sentence by the authority that caught them with them, as defined below.
+Illegals and Atrocities can be modified through events as well.
 
 #### Death Sentence
 ```html
