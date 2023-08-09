@@ -129,6 +129,19 @@ outfit "Linguistic Scanner"
 	"tactical scan power" 50
 	description "As part of how the Searchers' language acquisition process works, they scan and record all audio from nearby ships, using a highly focused laser to pick up on vibrations in the hull of the ship. The scanner they use for that purpose is so powerful that it is also highly effective at performing other types of scans. Unfortunately, it's also quite bulky, so it is not nearly as mass-efficient as a specialized scanner for any specific kind of scan."
 
+outfit "SGT-1 Repulsor Thruster"
+	category "Engines"
+	thumbnail "outfit/small searcher thruster"
+	mass 41
+	"outfit space" -41
+	"engine capacity" -41
+	thrust 28
+	"thrusting energy" 35
+	"thrusting heat" 4
+	"inertia reduction" 0.05
+	"flare sprite" "effect/searcher flare/medium"
+	description "After centuries of reverse-engineering their only sample of Quarg technology, the Searchers were finally able to manufacture the precursor to this graviton thruster block. Although it is not nearly as efficient as its Quarg counterpart, it still has one of the highest thrust to heat ratios of any thruster module in the galaxy."
+
 outfit "Helical Flechette Railgun"
 	category "Hand to Hand"
 	thumbnail "outfit/flechette railgun"

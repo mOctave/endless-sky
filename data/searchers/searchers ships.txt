@@ -124,7 +124,7 @@ ship "Searcher Temple"
 		"A200 Lemma Battery"
 		"Linguistic Scanner"
 		
-		"X3700 Ion Thruster"
+		"SGT-1 Repulsor Thruster"
 		"X3200 Ion Steering"
 
 		"Hyperdrive"
@@ -180,7 +180,7 @@ ship "Searcher Chapel"
 		"A200 Lemma Battery"
 		"Linguistic Scanner"
 		
-		"X3700 Ion Thruster"
+		"SGT-1 Repulsor Thruster"
 		"X3200 Ion Steering"
 
 		"Hyperdrive"
@@ -246,7 +246,7 @@ ship "Searcher Ziggurat"
 		"A200 Lemma Battery"
 		"Linguistic Scanner"
 		
-		"X3700 Ion Thruster"
+		"SGT-1 Repulsor Thruster"
 		"X3200 Ion Steering"
 
 		"Hyperdrive"
@@ -314,7 +314,7 @@ ship "Searcher Cathedral"
 		"A200 Lemma Battery"
 		"Linguistic Scanner"
 		
-		"X3700 Ion Thruster"
+		"SGT-1 Repulsor Thruster"
 		"X3200 Ion Steering"
 
 		"Hyperdrive"
@@ -384,7 +384,7 @@ ship "Searcher Pyramid"
 		"A200 Lemma Battery"
 		"Linguistic Scanner"
 		
-		"X3700 Ion Thruster"
+		"SGT-1 Repulsor Thruster"
 		"X3200 Ion Steering"
 
 		"Hyperdrive"
