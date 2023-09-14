@@ -11,6 +11,26 @@
 # You should have received a copy of the GNU General Public License along with
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
+outfit "Scattergun Anti-Missile"
+	category "Turrets"
+	"cost" 46000
+	thumbnail "outfit/small searcher antimissile"
+	"mass" 24
+	"outfit space" -16
+	"weapon capacity" -16
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/small searcher antimissile"
+		"hit effect" "small anti-missile"
+		"anti-missile" 6
+		"velocity" 30
+		"lifetime" 3
+		"reload" 4
+		"firing energy" 2
+		"firing heat" 4
+	
+	description "The Scatergun Anti-Missile Turret is an antiquated design dating back to when the biggest threat to Searcher vessels was small asteroids. Rarely used in those days and painfully slow to adjust elevation, it is still a powerful weapon when it can be brought to bear. At maximum rate of fire, it launches 15 powerful but short-ranged plasma shells per second."
+
 outfit "A100 Axiom Battery"
 	plural "A100 Axiom Batteries"
 	category "Power"
@@ -129,18 +149,19 @@ outfit "Linguistic Scanner"
 	"tactical scan power" 50
 	description "As part of how the Searchers' language acquisition process works, they scan and record all audio from nearby ships, using a highly focused laser to pick up on vibrations in the hull of the ship. The scanner they use for that purpose is so powerful that it is also highly effective at performing other types of scans. Unfortunately, it's also quite bulky, so it is not nearly as mass-efficient as a specialized scanner for any specific kind of scan."
 
-outfit "SGT-1 Repulsor Thruster"
+# Engines: Dioscuri (Combo), Castor and Pollux, Scuti and Carinae, Cygnus and Sagittarius
+outfit "SGT-1 Castor Thruster"
 	category "Engines"
 	thumbnail "outfit/small searcher thruster"
-	mass 41
-	"outfit space" -41
-	"engine capacity" -41
+	mass 36
+	"outfit space" -36
+	"engine capacity" -36
 	thrust 28
 	"thrusting energy" 35
 	"thrusting heat" 4
 	"inertia reduction" 0.05
 	"flare sprite" "effect/searcher flare/medium"
-	description "After centuries of reverse-engineering their only sample of Quarg technology, the Searchers were finally able to manufacture the precursor to this graviton thruster block. Although it is not nearly as efficient as its Quarg counterpart, it still has one of the highest thrust to heat ratios of any thruster module in the galaxy."
+	description "The Searchers use a unique method of propulsion in the galaxy. While many species have settled on plasma or electric thrusters, and the Quarg widely use graviton technology, the Searchers have developed large arrays of thrusters that are partially nuclear and partially nano-electrokinetic."
 
 outfit "Helical Flechette Railgun"
 	category "Hand to Hand"
