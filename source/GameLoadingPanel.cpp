@@ -25,8 +25,6 @@ this program. If not, see <https://www.gnu.org/licenses/>.
 #include "text/FontSet.h"
 #include "text/Format.h"
 #include "GameData.h"
-#include "Information.h"
-#include "Interface.h"
 #include "MaskManager.h"
 #include "MenuAnimationPanel.h"
 #include "MenuPanel.h"
