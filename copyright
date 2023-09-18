@@ -2183,11 +2183,27 @@ License: CC-BY-SA-4.0
 
 Files:
  images/ship/searcher*
-Copyright: mOctave (https://github.com/mOctave)
+ images/effect/scattergun*
+ images/hardpoint/small searcher antimissile*
+ images/planet/metal*
+ images/outfit/flechette railgun*
+ images/outfit/tiny searcher shields*
+ images/outfit/small searcher shields*
+ images/outfit/medium searcher shields*
+ images/outfit/large searcher shields*
+ images/outfit/huge searcher shields*
+ images/outfit/linguistic scanner*
+ images/outfit/tiny searcher battery*
+ images/outfit/small searcher battery*
+ images/outfit/medium searcher battery*
+ images/outfit/searcher heat sink*
+ images/outfit/small searcher thruster*
+Copyright: mOctave <moctave31415@gmail.com>
 License: CC-BY-SA-4.0
 
 Files:
  images/planet/wormhole-searchers*
+ images/effect/searcher flare/*
 Copyright: RisingLeaf (https://github.com/RisingLeaf)
 License: CC-BY-SA-4.0
 
