@@ -21,15 +21,23 @@ outfit "Scattergun Anti-Missile"
 	"turret mounts" -1
 	weapon
 		"hardpoint sprite" "hardpoint/small searcher antimissile"
-		"hit effect" "small anti-missile"
+		"hit effect" "scattergun anti-missile"
 		"anti-missile" 6
-		"velocity" 30
-		"lifetime" 3
+		"velocity" 80
+		"lifetime" 1
 		"reload" 4
 		"firing energy" 2
 		"firing heat" 4
 	
-	description "The Scatergun Anti-Missile Turret is an antiquated design dating back to when the biggest threat to Searcher vessels was small asteroids. Rarely used in those days and painfully slow to adjust elevation, it is still a powerful weapon when it can be brought to bear. At maximum rate of fire, it launches 15 powerful but short-ranged plasma shells per second."
+	description "The Scatergun Anti-Missile Turret is an antiquated design dating back to when the biggest threat to Searcher vessels was small asteroids. Rarely used in those days and painfully slow to adjust elevation, it is still a powerful weapon when it can be brought to bear. At maximum rate of fire, it launches 15 powerful but short-ranged bursts of hyperfocused plasma per second."
+
+effect "scattergun anti-missile"
+	sprite "effect/scattergun"
+		"no repeat"
+		"frame rate" 4
+	sound "anti-missile"
+	"lifetime" 30
+	"velocity scale" 1
 
 outfit "A100 Axiom Battery"
 	plural "A100 Axiom Batteries"

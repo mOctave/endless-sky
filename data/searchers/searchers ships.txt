@@ -34,7 +34,7 @@ ship "Searcher Pestle"
 			"hit force" 120
 	outfits
 		"Energy Blaster"
-		"Anti-Missile Turret"
+		"Scattergun Anti-Missile"
 
 		"SSU-1 Obstructive Shields"
 
@@ -45,7 +45,7 @@ ship "Searcher Pestle"
 		"X1200 Ion Steering"
 
 	gun 0 -21 "Energy Blaster"
-	turret 0 1.5 "Anti-Missile Turret"
+	turret 0 1.5 "Scattergun Anti-Missile"
 	engine -8 20
 	engine 8 20
 
@@ -73,7 +73,6 @@ ship "Searcher Mortar"
 	outfits
 		"Meteor Missile Launcher"
 		"Meteor Missile" 60
-		"Anti-Missile Turret"
 
 		"SSU-1 Obstructive Shields"
 
