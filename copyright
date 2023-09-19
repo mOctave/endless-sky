@@ -2090,10 +2090,12 @@ License: CC-BY-SA-4.0
 Files:
  images/land/hills11*
 Copyright: CyberJudas (cyberjudas@dnmx.org)
+License: CC-BY-SA-4.0
+
+Files:
  images/ship/searcher*
  images/effect/scattergun*
  images/hardpoint/small searcher antimissile*
- images/planet/metal*
  images/outfit/flechette railgun*
  images/outfit/tiny searcher shields*
  images/outfit/small searcher shields*
@@ -2112,8 +2114,8 @@ License: CC-BY-SA-4.0
 Files:
  images/planet/wormhole-searchers*
  images/effect/searcher flare/*
+ images/planet/metal*
 Copyright: RisingLeaf (https://github.com/RisingLeaf)
-
 License: CC-BY-SA-4.0
 
 License: GPL-3+
