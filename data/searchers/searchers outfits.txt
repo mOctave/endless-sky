@@ -25,18 +25,46 @@ outfit "Scattergun Anti-Missile"
 		"anti-missile" 6
 		"velocity" 80
 		"lifetime" 1
-		"reload" 4
+		"reload" 2
 		"firing energy" 2
 		"firing heat" 4
 	
-	description "The Scatergun Anti-Missile Turret is an antiquated design dating back to when the biggest threat to Searcher vessels was small asteroids. Rarely used in those days and painfully slow to adjust elevation, it is still a powerful weapon when it can be brought to bear. At maximum rate of fire, it launches 15 powerful but short-ranged bursts of hyperfocused plasma per second."
+	description "The Scatergun Anti-Missile Turret is an antiquated design dating back to when the biggest threat to Searcher vessels was small asteroids. Rarely used in those days and painfully slow to adjust elevation, it is still a powerful weapon when it can be brought to bear. At maximum rate of fire, it launches thirty powerful but short-ranged bursts of hyperfocused plasma per second."
 
 effect "scattergun anti-missile"
 	sprite "effect/scattergun"
 		"no repeat"
 		"frame rate" 4
 	sound "anti-missile"
-	"lifetime" 30
+	"lifetime" 31
+	"velocity scale" 1
+
+outfit "Sharpshooter Anti-Missile"
+	category "Turrets"
+	"cost" 89000
+	thumbnail "outfit/large searcher antimissile"
+	"mass" 37
+	"outfit space" -28
+	"weapon capacity" -28
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/large searcher antimissile"
+		"hit effect" "sharpshooter anti-missile"
+		"anti-missile" 15
+		"velocity" 360
+		"lifetime" 1
+		"reload" 20
+		"firing energy" 6
+		"firing heat" 10
+	
+	description "Although the Sharpshooter anti-missile system fires far slower than the Scattergun, it more than makes up for this in the range and power of the individual transluminal plasma beams. These carefully concentrated projectiles are nearly indistinguishable from lasers, picking off missiles far before they can get close enough to do any harm."
+
+effect "sharpshooter anti-missile"
+	sprite "effect/sharpshooter"
+		"no repeat"
+		"frame rate" 3
+	sound "anti-missile"
+	"lifetime" 46
 	"velocity scale" 1
 
 outfit "A100 Axiom Battery"

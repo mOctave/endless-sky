@@ -115,7 +115,7 @@ ship "Searcher Temple"
 		"Meteor Missile Launcher" 2
 		"Meteor Missile" 60
 
-		"Heavy Anti-Missile Turret"
+		"Sharpshooter Anti-Missile"
 
 		"SSU-2 Protective Shields"
 
@@ -132,7 +132,7 @@ ship "Searcher Temple"
 	gun -6.5 -97 "Energy Blaster"
 	gun 33.5 -80.5 "Meteor Missile Launcher"
 	gun 6.5 -97 "Energy Blaster"
-	turret 4 36 "Heavy Anti-Missile Turret"
+	turret 4 36 "Sharpshooter Anti-Missile"
 	engine -16.5 94.5
 	engine 16.5 94.5
 	bay "Drone" -33 -22
@@ -170,7 +170,7 @@ ship "Searcher Chapel"
 		"Meteor Missile Launcher" 4
 		"Meteor Missile" 120
 
-		"Heavy Anti-Missile Turret" 2
+		"Sharpshooter Anti-Missile" 2
 		"Heavy Laser Turret"
 
 		"SSU-3 Effective Shields"
@@ -190,9 +190,9 @@ ship "Searcher Chapel"
 	gun 34 -81 "Energy Blaster"
 	gun 6.5 -97.5  "Meteor Missile Launcher"
 	gun 59 -19  "Meteor Missile Launcher"
-	turret -59 2.5 "Heavy Anti-Missile Turret"
+	turret -59 2.5 "Sharpshooter Anti-Missile"
 	turret 4 36.5 "Heavy Laser Turret"
-	turret 59 2.5 "Heavy Anti-Missile Turret"
+	turret 59 2.5 "Sharpshooter Anti-Missile"
 	engine -59 90
 		"zoom" 0.75
 	engine -16.5 94.5
@@ -236,7 +236,7 @@ ship "Searcher Ziggurat"
 		"Meteor Missile Launcher" 2
 		"Meteor Missile" 60
 
-		"Heavy Anti-Missile Turret" 2
+		"Sharpshooter Anti-Missile" 2
 		"Heavy Laser Turret"
 
 		"SSU-3 Effective Shields"
@@ -254,9 +254,9 @@ ship "Searcher Ziggurat"
 	gun -6.5 -107 "Energy Blaster"
 	gun 33.5 -89 "Meteor Missile Launcher"
 	gun 6.5 -107 "Energy Blaster"
-	turret -76 60 "Heavy Anti-Missile Turret"
+	turret -76 60 "Sharpshooter Anti-Missile"
 	turret 4 27 "Heavy Laser Turret"
-	turret 76 60 "Heavy Anti-Missile Turret"
+	turret 76 60 "Sharpshooter Anti-Missile"
 	engine -16.5 85
 	engine 16.5 85
 	bay "Drone" -33 -32
@@ -304,7 +304,7 @@ ship "Searcher Cathedral"
 		"Meteor Missile Launcher" 2
 		"Meteor Missile" 60
 
-		"Heavy Anti-Missile Turret"
+		"Sharpshooter Anti-Missile"
 		"Heavy Laser Turret" 2
 
 		"SSU-3 Effective Shields"
@@ -322,7 +322,7 @@ ship "Searcher Cathedral"
 	gun -6 -105 "Energy Blaster"
 	gun 6 -105 "Energy Blaster"
 	gun 34 -88 "Meteor Missile Launcher"
-	turret 4 28.5 "Heavy Anti-Missile Turret"
+	turret 4 28.5 "Sharpshooter Anti-Missile"
 	turret -76 62 "Heavy Laser Turret"
 	turret 76 62 "Heavy Laser Turret"
 	engine -17 86
@@ -374,7 +374,7 @@ ship "Searcher Pyramid"
 		"Meteor Missile Launcher" 4
 		"Meteor Missile" 120
 
-		"Heavy Anti-Missile Turret" 2
+		"Sharpshooter Anti-Missile" 2
 		"Heavy Laser Turret" 3
 
 		"SSU-4 Reliable Shields"
@@ -394,10 +394,10 @@ ship "Searcher Pyramid"
 	gun 6.5 -141 "Energy Blaster"
 	gun -8 9.5 "Meteor Missile Launcher"
 	gun 8 9.5 "Meteor Missile Launcher"
-	turret 4 -8.5 "Heavy Anti-Missile Turret"
-	turret -136.5 59 "Heavy Anti-Missile Turret"
+	turret 4 -8.5 "Heavy Laser Turret"
+	turret -136.5 59 "Sharpshooter Anti-Missile"
 	turret -76 25 "Heavy Laser Turret"
-	turret 136.5 59 "Heavy Anti-Missile Turret"
+	turret 136.5 59 "Sharpshooter Anti-Missile"
 	turret 76 25 "Heavy Laser Turret"
 	engine -136.5 112.5
 		"zoom" 0.75
