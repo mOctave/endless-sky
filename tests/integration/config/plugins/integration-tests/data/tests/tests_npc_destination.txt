@@ -1,0 +1,101 @@
+# Copyright (c) 2023 by Hurleveur
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+test-data "Npc Destination Save"
+	category "savegame"
+	contents
+		pilot Bobbi Bughunter
+		date 16 11 3013
+		system "Terra Incognita"
+		planet Ruin
+		clearance
+		ship "Star Barge"
+			name "Buggy Barge"
+			sprite "ship/star barge"
+			attributes
+				category "Light Freighter"
+				cost 190000
+				mass 70
+				bunks 3
+				"cargo space" 50
+				drag 2.1
+				"engine capacity" 40
+				"fuel capacity" 300
+				"heat dissipation" 0.8
+				hull 1000
+				"outfit space" 130
+				"required crew" 1
+				shields 600
+				"turret mounts" 1
+				"weapon capacity" 20
+				"thrust" 25
+				"turn" 250
+				"energy generation" 10
+			outfits
+				Hyperdrive
+			crew 1
+			fuel 300
+			shields 600
+			hull 1000
+			position 0 0
+			engine -9 38 1
+			engine 9 38 1
+			system "Terra Incognita"
+			planet Ruin
+		account
+			credits 100000000
+			score 400
+			history
+		visited "Terra Incognita"
+		"visited planet" Ruin
+
+test-data "Npc Destination Mission"
+	category mission
+	contents
+		mission "npc"
+			landing
+			npc evade
+				ship "Quarg Wardragon"
+				government "Quarg"
+				destination "Over the Rainbow"
+				personality uninterested
+
+
+test "Npc Destination Test"
+	status active
+	description "Starts the mission, accepts it and then boards the quarg ship to capture it."
+	sequence
+		inject "Npc Destination Mission"
+		inject "Npc Destination Save"
+		call "Load First Savegame"
+		watchdog 8000
+		call "Depart"
+		call "Land"
+		# trigger the mission
+		call "Depart"
+		label "floating"
+		# empty input to make time pass whilst the quarg ship gets away - and stay there
+		apply
+			"test: steps to wait" = 7 * 60 + 30
+		label "floating"
+		# empty input to make time pass
+		input
+		apply
+			"test: steps to wait" = "test: steps to wait" - 1
+		branch "floating"
+			"test: steps to wait" > 0
+		call "Land"
+		call "Wait 10 steps"
+		assert
+			"npc: offered" == 1
+			"npc: done" == 1
