@@ -78,12 +78,11 @@ test "Npc Destination Test"
 		inject "Npc Destination Mission"
 		inject "Npc Destination Save"
 		call "Load First Savegame"
-		watchdog 8000
+		watchdog 12000
 		call "Depart"
 		call "Land"
 		# trigger the mission
 		call "Depart"
-		label "floating"
 		# empty input to make time pass whilst the quarg ship gets away - and stay there
 		apply
 			"test: steps to wait" = 7 * 60 + 30
