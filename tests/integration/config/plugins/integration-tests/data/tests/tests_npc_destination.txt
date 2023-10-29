@@ -67,13 +67,13 @@ test-data "Npc Destination Mission"
 			npc evade
 				ship "Quarg Wardragon"
 				government "Quarg"
-				destination "Over the Rainbow"
-				personality uninterested
+				waypoint "Over the Rainbow"
+				personality uninterested staying
 
 
 test "Npc Destination Test"
 	status active
-	description "Starts the mission, accepts it and then boards the quarg ship to capture it."
+	description "Starts the mission, accepts it and then boards the Quarg ship to capture it."
 	sequence
 		inject "Npc Destination Mission"
 		inject "Npc Destination Save"
