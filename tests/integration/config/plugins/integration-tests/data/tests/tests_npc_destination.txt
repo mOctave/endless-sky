@@ -95,24 +95,23 @@ test "Npc Destination Test"
 		inject "Npc Destination Save"
 		call "Load First Savegame"
 		navigate
+			travel "Sol"
 			travel "Sirius"
 			travel "Procyon"
 			travel "Pollux"
 			travel "Castor"
+			"travel destination" "Geminus"
 		watchdog 12000
 		call "Depart"
-		call "Land"
 		# trigger the mission
+		call "Land"
 		call "Depart"
 		input
 			command jump
 		label "moving"
-		# empty input to make time pass
-		input
 		branch "moving"
-			"flagship system: Castor" != 1
-		call "Land"
+			"flagship landed" != 1
 		assert
 			"npc: offered" == 1
 			"npc: done" == 1
-			"flagship landed" == 1
+			"flagship system: Castor" == 1
