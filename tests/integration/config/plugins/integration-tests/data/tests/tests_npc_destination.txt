@@ -83,7 +83,7 @@ test-data "Npc Destination Mission"
 			npc accompany save
 				ship "Quarg Wardragon"
 				government "Quarg"
-				land Geminus
+				destination Geminus
 				waypoint
 				personality uninterested waiting
 
