@@ -79,6 +79,7 @@ test-data "Npc Destination Mission"
 	category mission
 	contents
 		mission "npc"
+			landing
 			npc land accompany save
 				ship "Quarg Wardragon"
 				government "Quarg"
