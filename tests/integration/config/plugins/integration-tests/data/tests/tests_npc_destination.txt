@@ -79,8 +79,7 @@ test-data "Npc Destination Mission"
 	category mission
 	contents
 		mission "npc"
-			landing
-			npc accompany save
+			npc land accompany save
 				ship "Quarg Wardragon"
 				government "Quarg"
 				destination Geminus
@@ -102,7 +101,7 @@ test "Npc Destination Test"
 			travel Procyon
 			travel Sirius
 			"travel destination" Geminus
-		watchdog 20000
+		watchdog 12000
 		call "Depart"
 		# trigger the mission
 		call "Land"
