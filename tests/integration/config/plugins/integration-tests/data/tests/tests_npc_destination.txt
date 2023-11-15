@@ -80,7 +80,7 @@ test-data "Npc Destination Mission"
 	contents
 		mission "npc"
 			landing
-			npc land accompany save
+			npc land save
 				ship "Quarg Wardragon"
 				government "Quarg"
 				destination Geminus
