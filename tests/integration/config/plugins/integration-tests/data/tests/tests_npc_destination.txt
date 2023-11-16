@@ -80,7 +80,7 @@ test-data "Npc Destination Mission"
 	contents
 		mission "npc"
 			landing
-			destination Geminus
+			destination "Geminus"
 
 
 test "Npc Destination Test"
@@ -107,6 +107,7 @@ test "Npc Destination Test"
 		label "moving"
 		branch "moving"
 			"flagship landed" != 1
+		call "Depart"
 		assert
 			"npc: offered" == 1
 			"npc: done" == 1
