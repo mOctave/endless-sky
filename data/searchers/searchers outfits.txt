@@ -67,35 +67,55 @@ effect "sharpshooter anti-missile"
 	"lifetime" 46
 	"velocity scale" 1
 
-outfit "A100 Axiom Battery"
-	plural "A100 Axiom Batteries"
+outfit "Axiom Battery"
+	plural "Axiom Batteries"
 	category "Power"
-	"cost" 29000
+	"cost" 27300
 	thumbnail "outfit/tiny searcher battery"
 	"mass" 6
 	"outfit space" -6
-	"energy capacity" 3900
-	description "The A100 Axiom Battery is the smallest energy storage unit produced by the Searchers. It is very efficient, but also somewhat expensive."
+	"energy capacity" 3600
+	description "The Axiom Battery is the smallest energy storage unit produced by the Searchers. It is very efficient, but also expensive."
 
-outfit "A200 Lemma Battery"
-	plural "A200 Lemma Batteries"
+outfit "Lemma Battery"
+	plural "Lemma Batteries"
 	category "Power"
-	"cost" 76300
+	"cost" 75300
 	thumbnail "outfit/small searcher battery"
-	"mass" 16
-	"outfit space" -16
-	"energy capacity" 11400
-	description "The next step up from the smallest of the Searchers' batteries, the A200 Lemma Battery is even more compact than the Axiom Battery, being more than powerful enough to accomodate for any momentary energy needs."
+	"mass" 14
+	"outfit space" -14
+	"energy capacity" 8400
+	description "The next step up from the smallest of the Searchers' batteries, the Lemma Battery is even more compact than the Axiom Battery, and more than powerful enough to accomodate for any momentary energy needs."
 
-outfit "A300 Tautology Battery"
-	plural "A300 Tautology Batteries"
+outfit "Presupposition Battery"
+	plural "Presupposition Batteries"
 	category "Power"
-	"cost" 122900
+	"cost" 247900
 	thumbnail "outfit/medium searcher battery"
-	"mass" 26
-	"outfit space" -26
-	"energy capacity" 20400
-	description "The next step up from the smallest of the Searchers' batteries, the A200 Lemma Battery is even more compact than the Axiom Battery, being more than powerful enough to accomodate for any momentary energy needs."
+	"mass" 38
+	"outfit space" -38
+	"energy capacity" 24300
+	description "The Presupposition Battery is the Searchers' mid-range battery, and the main electrical storage device used in their ships. While it may not be too powerful, it is efficient and reliable."
+
+outfit "Tautology Battery"
+	plural "Tautology Batteries"
+	category "Power"
+	"cost" 319900
+	thumbnail "outfit/large searcher battery"
+	"mass" 51
+	"outfit space" -51
+	"energy capacity" 33700
+	description "The Tautology Battery is the largest widely available battery the Searchers' outfitters stock. While larger batteries are ocassionally fitted by their captains, this is a rare occurance. After all, the it is easily capable of providing power for all but the very largest ships, and it has built up a reputation for reliability and efficiency."
+
+outfit "Transitive Battery"
+	plural "Transitive Batteries"
+	category "Power"
+	"cost" 510200
+	thumbnail "outfit/huge searcher battery"
+	"mass" 83
+	"outfit space" -83
+	"energy capacity" 56500
+	description "This is the single largest battery module you have ever seen. The size of a large nuclear reactor, it is nearly impossible to fit into most ships. Nonetheless, it provides an unrivaled amount of electrical storage capacity for the few ships with enough space to hold it."
 
 outfit "Verum Impactor"
 	"cost" 24000

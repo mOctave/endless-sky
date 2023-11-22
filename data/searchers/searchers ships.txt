@@ -39,7 +39,7 @@ ship "Searcher Pestle"
 		"SSU-1 Obstructive Shields"
 
 		"nGVF-AA Fuel Cell"
-		"A100 Axiom Battery"
+		"Axiom Battery"
 		
 		"X1700 Ion Thruster"
 		"X1200 Ion Steering"
@@ -77,7 +77,7 @@ ship "Searcher Mortar"
 		"SSU-1 Obstructive Shields"
 
 		"nGVF-AA Fuel Cell"
-		"A100 Axiom Battery"
+		"Axiom Battery"
 		
 		"X1700 Ion Thruster"
 		"X1200 Ion Steering"
@@ -120,7 +120,7 @@ ship "Searcher Temple"
 		"SSU-2 Protective Shields"
 
 		"nGVF-CC Fuel Cell"
-		"A200 Lemma Battery"
+		"Lemma Battery"
 		"Linguistic Scanner"
 		
 		"SGT-1 Repulsor Thruster"
@@ -176,7 +176,7 @@ ship "Searcher Chapel"
 		"SSU-3 Effective Shields"
 
 		"nGVF-CC Fuel Cell"
-		"A200 Lemma Battery"
+		"Lemma Battery"
 		"Linguistic Scanner"
 		
 		"SGT-1 Repulsor Thruster"
@@ -242,7 +242,7 @@ ship "Searcher Ziggurat"
 		"SSU-3 Effective Shields"
 
 		"nGVF-CC Fuel Cell"
-		"A200 Lemma Battery"
+		"Lemma Battery"
 		"Linguistic Scanner"
 		
 		"SGT-1 Repulsor Thruster"
@@ -310,7 +310,7 @@ ship "Searcher Cathedral"
 		"SSU-3 Effective Shields"
 
 		"nGVF-CC Fuel Cell"
-		"A200 Lemma Battery"
+		"Presupposition Battery"
 		"Linguistic Scanner"
 		
 		"SGT-1 Repulsor Thruster"
@@ -380,7 +380,7 @@ ship "Searcher Pyramid"
 		"SSU-4 Reliable Shields"
 
 		"nGVF-CC Fuel Cell"
-		"A200 Lemma Battery"
+		"Presupposition Battery"
 		"Linguistic Scanner"
 		
 		"SGT-1 Repulsor Thruster"
