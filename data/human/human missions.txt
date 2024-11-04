@@ -7606,6 +7606,8 @@ mission "Silver Talon 2"
 			choice
 				`	(Strafe the hovercraft.)`
 					goto strafe
+					to display
+						"flagship attribute: weapon capacity" != "flagship base attribute: weapon capacity"
 				`	(Get out of here.)`
 			`	Cranking your engines, you blast off, soon escaping the range of the small arms in the hovercraft. As your heartbeat slows, you approach the Karman line and enter space.`
 				goto escape
