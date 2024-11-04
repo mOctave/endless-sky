@@ -7453,3 +7453,208 @@ mission "Adelita 5"
 			`Ale, River, and Bunker look glad to be back on <planet>. "Being there in person was bad enough," Ale grumbles as she looks through a stack of folders on her datapad. "Now we have to watch it over and over again to edit it into something presentable."`
 			`	As they are leaving, Ale hands you a stack of credit chips totaling <payment>. "There's a bonus in there for you. We really couldn't have done it without you," she tells you with a bittersweet smile. "Of course, you'll be one of the first to know when it's done."`
 			`	She starts off to join River and Bunker out in the spaceport before turning around one last time in the doorway. "We might be in need of you for some future projects too, Captain <last>. But goodbye for now. Stay safe on the star lanes!"`
+
+
+
+mission "Silver Talon 1"
+	name "Bounty hunters to <planet>"
+	description "Take these <bunks> to <destination> in exchange for <payment>, then wait until they return to take them off-planet again."
+	clearance
+	infiltrating
+	passengers 5
+	source
+		attributes "near earth"
+	destination "Greenrock"
+	to offer
+		random < 5
+		"reputation: Pirate" < -500
+		"combat rating" >= 80
+	on offer
+		conversation
+			`Walking through the spaceport, you are flagged down by a very short woman sitting on a box labelled "Explosive! Corrosive! Flammable! Extremely Toxic! Handle With Car!" and holding the largest bazooka you've ever seen.`
+			choice
+			`	(See what she wants.)`
+			`	(Ignore her.)`
+				decline
+			`	As you approach, she stands up, a maneuver that results in the bazooka slamming into the metal frame of the box. You wince as sparks fly from the weapon's barrel, narrowly missing one of the openings between the crates' slats. Simultaneously, the box lets loose with a long string of invectives.`
+			`	"Sorry about him," the woman says, pointing at the box. "He's just in one of his moods, that's all. Short-fused guy unless you stuff him with garlic or sit him behind the wheel, and even then he's pretty toxic. Knows his work, though."`
+			choice
+			`	"There's someone in the box?"`
+			`	"You wanted to talk to me about something?"`
+				goto job
+			`	"Oh, yeah, that's Klaus. Wiry fellow, just about translucent, and the best driver you've ever met. Dirtiest mouth this side of Freedom, too, but the box seems to be helping a little."`
+			`	While the woman is talking, Klaus extracts himself from the crate, spraying packing peanuts all over the place and sending the bazooka clattering to the ground. He glowers at the woman before trying to put the lid back on the box, failing, and ending up inside it again. The woman completely ignores him, clearing her throat and peering up at you.`
+			
+			label job
+			`	"Here's the thing, captain. I figure you're a reasonable person, know your business, all that. So I'm not going to sugar-coat. We're bounty hunters, headed out to the rim right now for, uh, work. Our previous ride bailed on us, so we're stranded here at the moment. What do you say?"`
+
+			choice
+				`	"Sorry, but I don't help killers."`
+				`	"How many people would this be?"`
+					goto number
+				`	"Where exactly on the rim are you trying to get to?"`
+					goto greenrock
+				`	"Is this 'work' of yours legal?"`
+					goto legal
+
+			label killers
+			`	"All right. See you around, then," the woman says, turning and picking up her bazooka. As you walk away, you just barely hear her mutter under her breath, "Hypocrite."`
+				decline
+			
+			label number
+			`	"Five of us, all told. Klaus you've met, Dagger and Pict are in town getting drunk, and Louis is out looking for decent motels."`
+			choice
+				`	"Where exactly on the rim are you trying to get to?"`
+				`	"Is this 'work' of yours legal?"`
+					goto legal
+
+			label greenrock
+			`	"Well, that's the thing, isn't it? We need to get to <destination>, then we'll do our work, and then we'll need a ride out of there afterwards, which might be pretty hot. Truth is, I figured an experienced-looking captain like you with a pockmarked but well-maintained ship was just the ticket? Was I right?"`
+			choice
+				`	"I'm in! Sounds like an adventure."`
+					goto in
+				`	"What's the payment situation?"`
+					goto payment
+				`	"Is this 'work' of yours legal?"`
+			
+			label legal
+			`	The woman laughs. "Like laws apply on pirate worlds, anyways... If you're wondering, we're not going to knock off anyone civilized, no. Just another bloodsucking leech, killing off his fleet one by one in order to earn some credits, that's all. Way we figure it, it's him or us. That's the way the Republic feels, too."`
+			choice
+				`	"Okay, then, I'm in."`
+					goto in
+				`	"Sounds like a worthy cause, but how much are you going to pay me?"`
+				`	"Sorry, but I wouldn't feel right helping you kill anyone, even if they are a pirate warlord."`
+					goto killers
+			
+			label payment
+			`	"Always the businessperson, I see. Payment is <payment> credits set aside in a numbered transfer account effective immediately upon your acceptance of the job, and automatically delivered to you upon our arrival on <planet>. If our job is successful, you will receive a 15% share in the bounty, or approximately 400 thousand credits. If the job fails, naturally, you won't receive that amount but you will earn <payment> for getting us off planet as quickly as possible. Sounds good?"`
+			choice
+				`	"Sure! I'm in."`
+					goto in
+				`	"If you want me to fly you, I'm getting a 25% share in the profits."`
+				`	"Sorry, that's not enough for me to risk my life over."`
+					goto "bad payment"
+			
+			`	"Sorry, captain, but the 15% is non-negotiable, and it's as much as anyone else gets, too, after we take into accoutn the 25% overhead for equipment, failure payments, death benefits, and so forth. You either take it or leave it."`
+			choice
+				`	"If that's the case, I guess 15% is enough."`
+					goto in
+				`	"Well, I'm leaving it."`
+			
+			label "bad payment"
+			`	"Well, that's a shame," the woman replies. "I guess I'll get back to looking around, then. Goodbye."`
+				decline
+			
+			label in
+			`	"Glad to hear it!" the woman says. "Klaus and I'll get all our gear packed away. I'm sure we can find someone to stash it that doesn't eat up your cargo hold. Oh, and by the way, I'm Cerridwyn Morgan."`
+			`	After about an hour, all the bounty hunters' equipment is securely stowed on board the <ship>, and all the aforementioned assassins are present and accounted for. Cerridwyn introduces you to each in turn: the wiry and foul-mouthed driver Klaus, the ex-marine Dagger, the sniper Pict, and the dapper young Louis. Cerridwyn's job, it seems, is to use the bazooka she's spent the last hour lugging around, a role which she appears to be something of a legend in."`
+			`	Introductions complete, the bounty hunters all fall into their bunks in preparation for the journey to <planet>.`
+	
+	on visit
+		dialog "You arrive on <planet>, setting down some distance from the main spaceport. Unfortunately, not all the bounty hunters are on your flagship, so you're going to have to take off again to see what's taking them so long to get here."
+
+	on complete
+		conversation
+			`The team of bounty hunters pass the flight to <planet> in relative silence - and with a very strong odor of garlic. As you enter the <system> system, Cerridwyn directs you to land in a secluded minor spaceport well away from the planet's major cities.`
+			`	No sooner do you put down than Dagger cranks the <ship>'s hatch open and jumps out into the scorching heat. Klaus and Pict are close behind, followed by a pile of gear.`
+			`	Cerridwyn hands you a pile of credit chips. "As agreed, here's <payment>," she says. "If all goes well, we'll be back within two hours. If you don't hear back within four, get the heck out of here.`
+			choice
+				`	"Sounds good."`
+					goto good
+				`	"You don't want me to wait?"`
+			`	"No, I don't. You've done right by us, and we owe you for it. If we're not back in four hours, we'll probably all be dead and there'll be a price on your head too."`
+			`	Cerridwyn exhales, a long, slow breath.`
+			label good
+			`	"Anyways, good luck, Captain <last>. Stick with your ship, make sure she's ready to lift on a moment's notice, and we'll see you in a few hours."`
+			`	With that, Cerridwyn tosses her bazooka through the hatch and jumps down beside it. Louis gives you a jaunty salute and follows more cautiously. As the landing pad cools and the bounty hunters scramble toward a dilapidated jeep, you are left to mull over Cerridwyn's forboding words.`
+		payment 20000
+
+mission "Silver Talon 2"
+	name "Escape to <planet>"
+	description "With the bounty hunters in tow, flee to <destination> to escape a fleet of enraged and vengeful pirates."
+	landing
+	passengers 4
+	source "Greenrock"
+	destination "Dancer"
+	to offer
+		has "Silver Talon 1: done"
+	
+	on offer
+		conversation
+			`	Time passes slowly. First one hour flicks by, then a second, then a third. Just as you're beginning to give up hope, you hear a large explosion in the distance. A minute later, a speck appears on the horizon, a speck which soon resolves itself into the outline of a very old truck doing far more than what the speed limit would be on any civilized planet.`
+			`	Behind the huge billowing cloud of dust raised by the truck, two hovercraft appear. A figure in the back of the truck carrying a very large bazooka stands and fires, and the leading hovercraft vanishes in a fireball. The other swerves into a ditch.`
+			`	Soon, the jeep is back at the spaceport, roaring onto the tarmac at breakneck speeds and coming to a stop in a squeal of brakes at the end of a hundred-metre stripe of rubber. Before the truck's settled, Cerridwyn and Pict are already moving, tossing their weapons and bags over the side of the truckbed and scrambling down. Inside the truck, a sweating Klaus picks up Dagger like a sack of potatoes and hauls him out of the cab.`
+			`	Cerridwyn is the first through the hatch in your ship, preceded only by her rocket launcher. Klaus and Pict haul the wounded Dagger through with the rest of their equipment, and slam the hatch shut.`
+			`	"Okay, Captain," Cerridwyn says, "It's time to blow this popsicle stand."`
+			choice
+				`	(Lift off.)`
+					goto lift
+				`	"Yes, ma'am."`
+				`	"What about Louis?"`
+					goto louis
+				`	"Did you succeed?"`
+					goto failure
+			`	Cerridwyn frowns and glares at you but says nothing.`
+				goto lift
+			label louis
+			`	Cerridwyn merely shakes her head.`
+				goto lift
+			label failure
+			`	Cerridwyn laughs bitterly. "Does it look like we succeeded? We blew it, and we're going to have Sam Hill to pay if you don't get us off the ground pronto."`
+			label lift
+			`	As you shunt power to your repulsors and begin to lift, you hear the sound of gunfire outside. The remaining hovercraft, back on the dirt road, charges toward your ship. Suddenly, the old truck explodes, spraying the <ship> with flaming olive oil. Bullets hit the hull all around you like a murderous rainstorm.`
+			choice
+				`	(Strafe the hovercraft.)`
+					goto strafe
+				`	(Get out of here.)`
+			`	Cranking your engines, you blast off, soon escaping the range of the small arms in the hovercraft. As your heartbeat slows, you approach the Karman line and enter space.`
+				goto escape
+			label strafe
+			`	Rather than flee, you turn your guns on the hovercraft. For a brief moment, you see the terrified face and upraised arms of a pirate, before a rain of fire sweeps the vehicle and transforms it into a lump of smoldering charcoal.`
+			`	The cockpit is silent as you turn for space, save for the hum of your ship's air conditioner.`
+			label escape
+			`	Suddenly, red flashing dots appear on your radar. Klaus swears loudly into your left ear as the red dots solidify and are joined by a number of smaller specks.`
+			`	"Well, shoot," Cerridwyn mutters. "We should have known that he wouldn't take kindly to us escaping. Better get out of here fast. We've got friends on <destination>, so that's probably the best target."`
+	npc
+		government "Pirate"
+		personality
+			"hunting"
+			"vindictive"
+			"opportunistic"
+			"coward"
+			"waiting"
+			"target"
+			confusion 5
+		ship "Bastion (Laser)" "Swift Scimitar"
+		fleet "Large Southern Pirates" 1
+		fleet "Small Southern Pirates" 2
+	npc
+		government "Pirate"
+		personality
+			"hunting"
+			"vindictive"
+			"opportunistic"
+			"coward"
+			"waiting"
+			"target"
+			confusion 10
+		ship "Bastion (Heavy)" "Red Tide"
+		fleet "Large Southern Pirates" 1
+		fleet "Small Southern Pirates" 1
+	npc
+		government "Pirate"
+		personality
+			"hunting"
+			"vindictive"
+			"opportunistic"
+			"coward"
+			"waiting"
+			"staying"
+			"target"
+			confusion 10
+		system "Lesath"
+		ship "Osprey (Missile)" "Lurker's Shank"
+		fleet "Small Southern Pirates" 3
+
+	on visit
+		dialog `You arrive on <planet>, but somewhere along the way you lost some of the bounty hunters. Better depart and wait for your escorts to enter the system.`
