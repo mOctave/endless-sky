@@ -167,9 +167,9 @@ private:
 	static void CircleAround(const Ship &ship, Command &command, const Body &target);
 	static void Swarm(const Ship &ship, Command &command, const Body &target);
 	static void KeepStation(const Ship &ship, Command &command, const Body &target);
-	static void Attack(const Ship &ship, Command &command, const Ship &target);
-	static void AimToAttack(const Ship &ship, Command &command, const Body &target);
-	static void MoveToAttack(const Ship &ship, Command &command, const Body &target);
+	static void Attack(const Ship &ship, Command &command, const Ship &target, FireCommand &targeting);
+	static void AimToAttack(const Ship &ship, Command &command, const Body &target, FireCommand &targeting);
+	static void MoveToAttack(const Ship &ship, Command &command, const Body &target, FireCommand &targeting);
 	static void PickUp(const Ship &ship, Command &command, const Body &target);
 	// Special personality behaviors.
 	void DoAppeasing(const std::shared_ptr<Ship> &ship, double *threshold) const;
@@ -188,15 +188,16 @@ private:
 	// maximum damage to a target at the given position with its non-turret,
 	// non-homing weapons. If the ship has no non-homing weapons, this just
 	// returns the direction to the target.
-	static Point TargetAim(const Ship &ship);
-	static Point TargetAim(const Ship &ship, const Body &target);
+	static Point TargetAim(const Ship &ship, FireCommand &targeting);
+	static Point TargetAim(const Ship &ship, const Body &target, FireCommand &targeting);
 	// Aim the given ship's turrets.
-	void AimTurrets(const Ship &ship, FireCommand &command, bool opportunistic = false,
+	void AimTurrets(const Ship &ship, FireCommand &command, FireCommand &targeting, bool opportunistic = false,
 			const std::optional<Point> &targetOverride = std::nullopt) const;
 	// Fire whichever of the given ship's weapons can hit a hostile target.
 	// Return a bitmask giving the weapons to fire.
-	void AutoFire(const Ship &ship, FireCommand &command, bool secondary = true, bool isFlagship = false) const;
-	void AutoFire(const Ship &ship, FireCommand &command, const Body &target) const;
+	void AutoFire(const Ship &ship, FireCommand &command, FireCommand &targeting, bool secondary = true,
+		bool isFlagship = false) const;
+	void AutoFire(const Ship &ship, FireCommand &command, FireCommand &targeting, const Body &target) const;
 
 	// Calculate how long it will take a projectile to reach a target given the
 	// target's relative position and velocity and the velocity of the
@@ -247,6 +248,9 @@ private:
 	// thrashing the heap, since we can reuse the storage for
 	// each ship.
 	FireCommand firingCommands;
+	// Stores if a weapon is facing an enemy or not. Used for calculating
+	// the reduction in ship confusion while firing.
+	FireCommand onTarget;
 
 	bool escortsAreFrugal = true;
 	bool escortsUseAmmo = true;
